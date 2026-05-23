@@ -1,0 +1,121 @@
+{
+  "routing_strategy": "intent-based-routing",
+  "intents": {
+    "identity": {
+      "patterns": [
+        "who is ganesh",
+        "tell me about ganesh",
+        "contact info",
+        "where is ganesh from",
+        "family details",
+        "personal profile"
+      ],
+      "primary_sources": ["01_identity/identity.json", "01_identity/elevator_pitches.json"],
+      "secondary_sources": ["02_timeline/timeline.csv", "06_psychology/psychology.md"]
+    },
+    "skills": {
+      "patterns": [
+        "what are ganesh's skills",
+        "does he know python",
+        "flutter experience",
+        "technical stack",
+        "database knowledge",
+        "programming language proficiency"
+      ],
+      "primary_sources": ["03_skills/skills.csv"],
+      "secondary_sources": ["04_projects/projects.csv", "09_experience/experience.csv"]
+    },
+    "projects": {
+      "patterns": [
+        "projects built",
+        "tell me about riceagent pro",
+        "execucode details",
+        "what did he build",
+        "github repositories",
+        "project details"
+      ],
+      "primary_sources": ["04_projects/projects.csv", "13_content/open_source.csv"],
+      "secondary_sources": ["15_interview_prep/technical_deep_dives.md"]
+    },
+    "achievements": {
+      "patterns": [
+        "what are his achievements",
+        "certifications completed",
+        "hackathon results",
+        "ssc board marks",
+        "intermediate percentage",
+        "awards won"
+      ],
+      "primary_sources": ["05_achievements/achievements.csv", "10_learning/certifications_roadmap.csv"],
+      "secondary_sources": ["02_timeline/timeline.csv"]
+    },
+    "psychology": {
+      "patterns": [
+        "ganesh's personality",
+        "how does he think",
+        "operating style",
+        "strengths and weaknesses",
+        "what motivates ganesh",
+        "working style"
+      ],
+      "primary_sources": ["06_psychology/psychology.md", "14_values_beliefs/manifesto.md"],
+      "secondary_sources": ["14_values_beliefs/failures_and_lessons.md"]
+    },
+    "career": {
+      "patterns": [
+        "career vision",
+        "5 year plan",
+        "where does ganesh want to work",
+        "value proposition",
+        "work experience",
+        "internships"
+      ],
+      "primary_sources": ["11_goals/career_vision.md", "09_experience/experience.csv"],
+      "secondary_sources": ["11_goals/goals.json", "09_experience/role_details/codsoft.md"]
+    },
+    "interview_prep": {
+      "patterns": [
+        "behavioral questions",
+        "star answers",
+        "tell me about a time you failed",
+        "describe a conflict",
+        "how do you learn"
+      ],
+      "primary_sources": ["15_interview_prep/behavioral_answers.json"],
+      "secondary_sources": ["14_values_beliefs/failures_and_lessons.md"]
+    },
+    "technical_detail": {
+      "patterns": [
+        "how is riceagent architecture structured",
+        "execucode agent loop details",
+        "flip wars algorithm details",
+        "pathway rag pipeline architecture",
+        "gst workflow automation details"
+      ],
+      "primary_sources": ["15_interview_prep/technical_deep_dives.md"],
+      "secondary_sources": ["09_experience/role_details/codsoft.md", "09_experience/role_details/live_in_labs.md"]
+    },
+    "goals": {
+      "patterns": [
+        "short term goals",
+        "mid term goals",
+        "long term goals",
+        "goals roadmap",
+        "learning objectives"
+      ],
+      "primary_sources": ["11_goals/goals.json"],
+      "secondary_sources": ["10_learning/certifications_roadmap.csv", "11_goals/career_vision.md"]
+    },
+    "experience": {
+      "patterns": [
+        "internships",
+        "work experience",
+        "codsoft details",
+        "live in labs research",
+        "freelance work"
+      ],
+      "primary_sources": ["09_experience/experience.csv", "09_experience/role_details/codsoft.md", "09_experience/role_details/live_in_labs.md"],
+      "secondary_sources": ["02_timeline/timeline.csv"]
+    }
+  }
+}

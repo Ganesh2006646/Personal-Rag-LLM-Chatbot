@@ -1,0 +1,30 @@
+# Exclude personal network contacts
+12_network/network.csv
+
+# Compiled python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments and configs
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.venv/
+venv/
+ENV/
+env/
+
+# Libraries and packages
+node_modules/
+*.egg-info/
+dist/
+build/
+
+# Embeddings binaries and Chroma databases
+17_embeddings/**/*.bin
+17_embeddings/chroma_db/
+17_embeddings/qdrant_db/

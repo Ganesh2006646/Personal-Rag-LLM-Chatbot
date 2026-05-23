@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "owner": "Kankatala Ganesh Giridhar",
+    "last_updated": "2026-05-23",
+    "version": "1.0"
+  },
+  "short_term": {
+    "timeframe": "6 months (May 2026 – November 2026)",
+    "goals": [
+      {
+        "id": "st-01",
+        "title": "Earn Azure Fundamentals (AZ-900) Certification",
+        "description": "Complete Microsoft Azure Fundamentals certification to establish cloud computing credentials and build foundation for cloud-native application development.",
+        "target_date": "2026-07-01",
+        "linked_skills": ["Azure", "Cloud Computing", "IaaS", "PaaS", "SaaS"],
+        "linked_projects": [],
+        "progress": 35,
+        "status": "in_progress"
+      },
+      {
+        "id": "st-02",
+        "title": "Ship RiceAgent Pro v2",
+        "description": "Release the second major version of RiceAgent Pro with enhanced offline-first capabilities, improved Drift ORM schema, expanded reporting features, and integration with GST automation workflows built for the family business.",
+        "target_date": "2026-09-01",
+        "linked_skills": ["Flutter", "Dart", "Drift ORM", "Riverpod", "SQLite", "Firebase"],
+        "linked_projects": ["RiceAgent Pro", "GST Automation"],
+        "progress": 40,
+        "status": "in_progress"
+      },
+      {
+        "id": "st-03",
+        "title": "Build Portfolio Website v2",
+        "description": "Design and deploy a comprehensive personal portfolio website showcasing all projects, experience, research work, and technical writing. Must reflect the cyberpunk aesthetic preference while remaining functionally clean and fast.",
+        "target_date": "2026-08-15",
+        "linked_skills": ["Next.js", "React", "Tailwind CSS", "Vercel", "UI/UX Design"],
+        "linked_projects": [],
+        "progress": 15,
+        "status": "in_progress"
+      },
+      {
+        "id": "st-04",
+        "title": "Contribute to Open Source Projects",
+        "description": "Make meaningful contributions to 3+ established open-source projects in the AI/ML or Flutter ecosystem. Focus on substantive code contributions (bug fixes, features) not just documentation. Build public credibility as a builder.",
+        "target_date": "2026-11-01",
+        "linked_skills": ["Git", "Python", "Dart", "Open Source Contribution"],
+        "linked_projects": [],
+        "progress": 10,
+        "status": "in_progress"
+      }
+    ]
+  },
+  "mid_term": {
+    "timeframe": "1-2 years (2027 – 2028)",
+    "goals": [
+      {
+        "id": "mt-01",
+        "title": "Land SDE Role at a Product Company",
+        "description": "Secure a Software Development Engineer position at a top-tier product company (target: companies with strong engineering culture like Google, Microsoft, Atlassian, Razorpay, Zerodha, or equivalent). Focus on systems-level roles that involve architecture decisions, not just feature implementation.",
+        "target_date": "2028-06-01",
+        "linked_skills": ["DSA", "System Design", "Java", "Python", "SQL", "Distributed Systems"],
+        "linked_projects": ["FLIP WARS", "ExecuCode", "Pathway RAG"],
+        "progress": 20,
+        "status": "in_progress"
+      },
+      {
+        "id": "mt-02",
+        "title": "Build AI Startup MVP",
+        "description": "Design and ship a minimum viable product for an AI-powered startup idea that bridges enterprise automation with accessible technology. Target domain: agricultural supply chain or rural infrastructure optimization. Validate with real users before scaling.",
+        "target_date": "2028-03-01",
+        "linked_skills": ["FastAPI", "LangChain", "Gemini API", "Flutter", "PostgreSQL", "System Design"],
+        "linked_projects": ["RiceAgent Pro", "Pathway RAG", "GST Automation"],
+        "progress": 5,
+        "status": "planned"
+      },
+      {
+        "id": "mt-03",
+        "title": "Reach 1000+ GitHub Contributions",
+        "description": "Build a consistent, visible presence on GitHub with 1000+ contributions across personal projects, open-source contributions, and community codebases. Demonstrate sustained builder momentum, not just hackathon spikes.",
+        "target_date": "2027-12-31",
+        "linked_skills": ["Git", "Open Source", "All Programming Languages"],
+        "linked_projects": ["All Projects"],
+        "progress": 25,
+        "status": "in_progress"
+      }
+    ]
+  },
+  "long_term": {
+    "timeframe": "5+ years (2031+)",
+    "goals": [
+      {
+        "id": "lt-01",
+        "title": "Become a Systems Architect at Scale",
+        "description": "Evolve into a senior systems architect capable of designing infrastructure that serves millions of users. Master distributed systems, microservices orchestration, and large-scale data pipeline design. Be the engineer trusted with foundational architecture decisions.",
+        "target_date": "2031-12-31",
+        "linked_skills": ["Distributed Systems", "Microservices", "Cloud Architecture", "System Design", "Technical Leadership"],
+        "linked_projects": [],
+        "progress": 8,
+        "status": "planned"
+      },
+      {
+        "id": "lt-02",
+        "title": "Build a Product That Impacts 1M+ Users",
+        "description": "Create or lead the creation of a technology product — whether as a founder, co-founder, or technical lead — that reaches and meaningfully improves the lives of at least one million users. Impact measured by genuine utility, not vanity metrics.",
+        "target_date": "2032-12-31",
+        "linked_skills": ["Product Thinking", "System Design", "Full-Stack Development", "AI/ML", "Leadership"],
+        "linked_projects": ["RiceAgent Pro"],
+        "progress": 3,
+        "status": "planned"
+      },
+      {
+        "id": "lt-03",
+        "title": "Bridge AI with Rural Development at Scale",
+        "description": "Build technology infrastructure that brings AI-powered solutions to rural communities — agricultural supply chain optimization, water/energy management, healthcare access, education delivery. Continue the Live-in-Labs ethos at a systemic level, creating platforms that make advanced technology accessible to communities currently excluded from the digital economy.",
+        "target_date": "2033-12-31",
+        "linked_skills": ["AI/ML", "System Design", "Rural Development", "HCD", "Policy Understanding"],
+        "linked_projects": ["Live-in-Labs Research", "RiceAgent Pro", "GST Automation"],
+        "progress": 2,
+        "status": "planned"
+      }
+    ]
+  }
+}

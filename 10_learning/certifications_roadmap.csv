@@ -1,0 +1,16 @@
+certification_name,provider,status,target_date,priority,prerequisites,tags
+Full-Stack Web Development,Simplilearn,completed,2025-08-01,high,None,full-stack|web-development|mern|simplilearn
+AI Product Management,Product Space,completed,2025-09-01,high,None,ai|product-management|product-space
+AI Crash Course,Product Space,completed,2025-07-01,medium,None,ai|fundamentals|product-space
+GenAI Mastermind,Outskill,completed,2025-10-01,high,None,genai|llm|outskill
+Artificial Intelligence Fundamentals,IBM,completed,2025-06-01,high,None,ai|ibm|certification
+Generative AI & Prompt Engineering,LetsUpgrade,completed,2025-11-01,medium,None,genai|prompt-engineering|letsupgrade
+n8n Workflow Automation,LetsUpgrade,completed,2026-02-01,medium,None,n8n|automation|letsupgrade
+Azure Fundamentals (AZ-900),Microsoft,in_progress,2026-07-01,high,None,azure|cloud|microsoft|az-900
+Azure Developer Associate (AZ-204),Microsoft,planned,2026-12-01,high,AZ-900,azure|cloud|developer|microsoft
+AWS Cloud Practitioner (CLF-C02),Amazon Web Services,planned,2027-03-01,medium,None,aws|cloud|certification
+AWS Solutions Architect Associate (SAA-C03),Amazon Web Services,planned,2027-09-01,medium,CLF-C02,aws|cloud|architecture
+Google Cloud Digital Leader,Google Cloud,planned,2027-06-01,medium,None,gcp|cloud|certification
+TensorFlow Developer Certificate,Google,planned,2027-06-01,high,AI fundamentals|Python proficiency,tensorflow|ml|deep-learning|google
+LangChain & LLM Application Development,DeepLearning.AI,planned,2026-09-01,high,Python proficiency|GenAI fundamentals,langchain|llm|genai|deeplearning-ai
+Docker Certified Associate,Docker,planned,2027-12-01,medium,Docker fundamentals,docker|containers|devops

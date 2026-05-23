@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Personal RAG DB Chunk Schema",
+  "description": "Schema for validating individual chunk objects in the generated JSONL outputs.",
+  "type": "object",
+  "properties": {
+    "chunk_id": {
+      "type": "string",
+      "pattern": "^[a-zA-Z0-9_-]+$"
+    },
+    "source": { "type": "string" },
+    "category": { "type": "string" },
+    "subcategory": { "type": "string" },
+    "content": { "type": "string" },
+    "context_header": { "type": "string" },
+    "entities": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "temporal": {
+      "type": "object",
+      "properties": {
+        "dates": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "years": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "required": ["dates", "years"]
+    },
+    "importance": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "token_count": { "type": "integer", "minimum": 0 },
+    "chunk_type": {
+      "type": "string",
+      "enum": ["child", "parent", "qa"]
+    },
+    "created_at": { "type": "string", "format": "date-time" },
+    "checksum": { "type": "string", "pattern": "^[a-fA-F0-9]{64}$" },
+    "child_chunk_ids": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "required": [
+    "chunk_id",
+    "source",
+    "category",
+    "subcategory",
+    "content",
+    "context_header",
+    "entities",
+    "temporal",
+    "importance",
+    "tags",
+    "token_count",
+    "chunk_type",
+    "created_at",
+    "checksum"
+  ]
+}

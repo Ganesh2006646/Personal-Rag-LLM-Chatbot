@@ -1,0 +1,1355 @@
+[
+  {
+    "id": "person:kankatala_ganesh_giridhar",
+    "name": "Kankatala Ganesh Giridhar",
+    "type": "Person",
+    "properties": {
+      "role": "",
+      "location": "",
+      "primary_technical_identity": "",
+      "value_proposition": ""
+    },
+    "sources": [
+      "01_identity/identity.json"
+    ]
+  },
+  {
+    "id": "organization:huxen_tusk_pre_school",
+    "name": "Huxen Tusk Pre-School",
+    "type": "Organization",
+    "properties": {
+      "type": "academic_institution",
+      "level": "Pre-School / Early Childhood"
+    },
+    "sources": [
+      "01_identity/identity.json"
+    ]
+  },
+  {
+    "id": "organization:sri_chaitanya_institutions",
+    "name": "Sri Chaitanya Institutions",
+    "type": "Organization",
+    "properties": {
+      "type": "academic_institution",
+      "level": "Nursery through Class 7"
+    },
+    "sources": [
+      "01_identity/identity.json"
+    ]
+  },
+  {
+    "id": "organization:tirumala_iit_jee_academy",
+    "name": "Tirumala IIT & JEE Academy",
+    "type": "Organization",
+    "properties": {
+      "type": "academic_institution",
+      "level": "Class 8 through Class 12 (Residential)"
+    },
+    "sources": [
+      "01_identity/identity.json"
+    ]
+  },
+  {
+    "id": "organization:amrita_vishwa_vidyapeetham",
+    "name": "Amrita Vishwa Vidyapeetham",
+    "type": "Organization",
+    "properties": {
+      "type": "academic_institution",
+      "level": "B.Tech Computer Science and Engineering"
+    },
+    "sources": [
+      "01_identity/identity.json"
+    ]
+  },
+  {
+    "id": "skill:python",
+    "name": "Python",
+    "type": "Skill",
+    "properties": {
+      "category": "Programming Language",
+      "proficiency": "",
+      "description": "",
+      "last_used": "2026"
+    },
+    "sources": [
+      "03_skills/skills.csv"
+    ]
+  },
+  {
+    "id": "skill:java",
+    "name": "Java",
+    "type": "Skill",
+    "properties": {
+      "category": "Programming Language",
+      "proficiency": "",
+      "description": "",
+      "last_used": "2026"
+    },
+    "sources": [
+      "03_skills/skills.csv"
+    ]
+  },
+  {
+    "id": "skill:javascript",
+    "name": "JavaScript",
+    "type": "Skill",
+    "properties": {
+      "category": "Programming Language",
+      "proficiency": "",
+      "description": "",
+      "last_used": "2026"
+    },
+    "sources": [
+      "03_skills/skills.csv"
+    ]
+  },
+  {
+    "id": "skill:sql",
+    "name": "SQL",
+    "type": "Skill",
+    "properties": {
+      "category": "Programming Language",
+      "proficiency": "",
+      "description": "",
+      "last_used": "2026"
+    },
+    "sources": [
+      "03_skills/skills.csv"
+    ]
+  },
+  {
+    "id": "skill:dart",
+    "name": "Dart",
+    "type": "Skill",
+    "properties": {
+      "category": "Programming Language",
+      "proficiency": "",
+      "description": "",
+      "last_used": "2026"
+    },
+    "sources": [
+      "03_skills/skills.csv"
+    ]
+  },
+  {
+    "id": "skill:node_js",
+    "name": "Node.js",
+    "type": "Skill",
+    "properties": {
+      "category": "Backend Framework",
+      "proficiency": "",
+      "description": "",
+      "last_used": "2026"
+    },
+    "sources": [
+      "03_skills/skills.csv"
+    ]
+  },
+  {
+    "id": "skill:express_js",
+    "name": "Express.js",
+    "type": "Skill",
+    "properties": {
+      "category": "Backend Framework",
+      "proficiency": "",
+      "description": "",
+      "last_used": "2026"
+    },
+    "sources": [
+      "03_skills/skills.csv"
+    ]
+  },
+  {
+    "id": "skill:fastapi",
+    "name": "FastAPI",
+    "type": "Skill",
+    "properties": {
+      "category": "Backend Framework",
+      "proficiency": "",
+      "description": "",
+      "last_used": "2026"
+    },
+    "sources": [
+      "03_skills/skills.csv"
+    ]
+  },
+  {
+    "id": "skill:rest_apis",
+    "name": "REST APIs",
+    "type": "Skill",
+    "properties": {
+      "category": "Architecture Pattern",
+      "proficiency": "",
+      "description": "",
+      "last_used": "2026"
+    },
+    "sources": [
+      "03_skills/skills.csv"
+    ]
+  },
+  {
+    "id": "skill:flutter",
+    "name": "Flutter",
+    "type": "Skill",
+    "properties": {
+      "category": "Mobile Framework",
+      "proficiency": "",
+      "description": "",
+      "last_used": "2026"
+    },
+    "sources": [
+      "03_skills/skills.csv"
+    ]
+  },
+  {
+    "id": "skill:riverpod",
+    "name": "Riverpod",
+    "type": "Skill",
+    "properties": {
+      "category": "State Management",
+      "proficiency": "",
+      "description": "",
+      "last_used": "2026"
+    },
+    "sources": [
+      "03_skills/skills.csv"
+    ]
+  },
+  {
+    "id": "skill:drift_sqlite",
+    "name": "Drift (SQLite)",
+    "type": "Skill",
+    "properties": {
+      "category": "Database/ORM",
+      "proficiency": "",
+      "description": "",
+      "last_used": "2026"
+    },
+    "sources": [
+      "03_skills/skills.csv"
+    ]
+  },
+  {
+    "id": "skill:react",
+    "name": "React",
+    "type": "Skill",
+    "properties": {
+      "category": "Frontend Framework",
+      "proficiency": "",
+      "description": "",
+      "last_used": "2026"
+    },
+    "sources": [
+      "03_skills/skills.csv"
+    ]
+  },
+  {
+    "id": "skill:next_js",
+    "name": "Next.js",
+    "type": "Skill",
+    "properties": {
+      "category": "Frontend Framework",
+      "proficiency": "",
+      "description": "",
+      "last_used": "2026"
+    },
+    "sources": [
+      "03_skills/skills.csv"
+    ]
+  },
+  {
+    "id": "skill:tailwind_css",
+    "name": "Tailwind CSS",
+    "type": "Skill",
+    "properties": {
+      "category": "Frontend/CSS",
+      "proficiency": "",
+      "description": "",
+      "last_used": "2026"
+    },
+    "sources": [
+      "03_skills/skills.csv"
+    ]
+  },
+  {
+    "id": "skill:html_css",
+    "name": "HTML/CSS",
+    "type": "Skill",
+    "properties": {
+      "category": "Frontend",
+      "proficiency": "",
+      "description": "",
+      "last_used": "2026"
+    },
+    "sources": [
+      "03_skills/skills.csv"
+    ]
+  },
+  {
+    "id": "skill:postgresql",
+    "name": "PostgreSQL",
+    "type": "Skill",
+    "properties": {
+      "category": "Database",
+      "proficiency": "",
+      "description": "",
+      "last_used": "2026"
+    },
+    "sources": [
+      "03_skills/skills.csv"
+    ]
+  },
+  {
+    "id": "skill:mysql",
+    "name": "MySQL",
+    "type": "Skill",
+    "properties": {
+      "category": "Database",
+      "proficiency": "",
+      "description": "",
+      "last_used": "2026"
+    },
+    "sources": [
+      "03_skills/skills.csv"
+    ]
+  },
+  {
+    "id": "skill:mongodb",
+    "name": "MongoDB",
+    "type": "Skill",
+    "properties": {
+      "category": "Database",
+      "proficiency": "",
+      "description": "",
+      "last_used": "2026"
+    },
+    "sources": [
+      "03_skills/skills.csv"
+    ]
+  },
+  {
+    "id": "skill:redis",
+    "name": "Redis",
+    "type": "Skill",
+    "properties": {
+      "category": "Database/Cache",
+      "proficiency": "",
+      "description": "",
+      "last_used": "2026"
+    },
+    "sources": [
+      "03_skills/skills.csv"
+    ]
+  },
+  {
+    "id": "skill:firebase",
+    "name": "Firebase",
+    "type": "Skill",
+    "properties": {
+      "category": "Backend-as-a-Service",
+      "proficiency": "",
+      "description": "",
+      "last_used": "2026"
+    },
+    "sources": [
+      "03_skills/skills.csv"
+    ]
+  },
+  {
+    "id": "skill:docker",
+    "name": "Docker",
+    "type": "Skill",
+    "properties": {
+      "category": "DevOps/Infrastructure",
+      "proficiency": "",
+      "description": "",
+      "last_used": "2026"
+    },
+    "sources": [
+      "03_skills/skills.csv"
+    ]
+  },
+  {
+    "id": "skill:git",
+    "name": "Git",
+    "type": "Skill",
+    "properties": {
+      "category": "Version Control",
+      "proficiency": "",
+      "description": "",
+      "last_used": "2026"
+    },
+    "sources": [
+      "03_skills/skills.csv"
+    ]
+  },
+  {
+    "id": "skill:n8n",
+    "name": "n8n",
+    "type": "Skill",
+    "properties": {
+      "category": "Automation Platform",
+      "proficiency": "",
+      "description": "",
+      "last_used": "2026"
+    },
+    "sources": [
+      "03_skills/skills.csv"
+    ]
+  },
+  {
+    "id": "skill:figma",
+    "name": "Figma",
+    "type": "Skill",
+    "properties": {
+      "category": "Design Tool",
+      "proficiency": "",
+      "description": "",
+      "last_used": "2026"
+    },
+    "sources": [
+      "03_skills/skills.csv"
+    ]
+  },
+  {
+    "id": "skill:azure",
+    "name": "Azure",
+    "type": "Skill",
+    "properties": {
+      "category": "Cloud Platform",
+      "proficiency": "",
+      "description": "",
+      "last_used": "2026"
+    },
+    "sources": [
+      "03_skills/skills.csv"
+    ]
+  },
+  {
+    "id": "skill:langchain",
+    "name": "LangChain",
+    "type": "Skill",
+    "properties": {
+      "category": "AI Framework",
+      "proficiency": "",
+      "description": "",
+      "last_used": "2026"
+    },
+    "sources": [
+      "03_skills/skills.csv"
+    ]
+  },
+  {
+    "id": "skill:gemini_api",
+    "name": "Gemini API",
+    "type": "Skill",
+    "properties": {
+      "category": "AI Service",
+      "proficiency": "",
+      "description": "",
+      "last_used": "2026"
+    },
+    "sources": [
+      "03_skills/skills.csv"
+    ]
+  },
+  {
+    "id": "skill:pathway_ai",
+    "name": "Pathway AI",
+    "type": "Skill",
+    "properties": {
+      "category": "AI Framework",
+      "proficiency": "",
+      "description": "",
+      "last_used": "2026"
+    },
+    "sources": [
+      "03_skills/skills.csv"
+    ]
+  },
+  {
+    "id": "skill:kafka",
+    "name": "Kafka",
+    "type": "Skill",
+    "properties": {
+      "category": "Message Queue",
+      "proficiency": "",
+      "description": "",
+      "last_used": "2026"
+    },
+    "sources": [
+      "03_skills/skills.csv"
+    ]
+  },
+  {
+    "id": "skill:google_maps_api",
+    "name": "Google Maps API",
+    "type": "Skill",
+    "properties": {
+      "category": "API Service",
+      "proficiency": "",
+      "description": "",
+      "last_used": "2026"
+    },
+    "sources": [
+      "03_skills/skills.csv"
+    ]
+  },
+  {
+    "id": "skill:javafx",
+    "name": "JavaFX",
+    "type": "Skill",
+    "properties": {
+      "category": "UI Framework",
+      "proficiency": "",
+      "description": "",
+      "last_used": "2025"
+    },
+    "sources": [
+      "03_skills/skills.csv"
+    ]
+  },
+  {
+    "id": "skill:pandas",
+    "name": "Pandas",
+    "type": "Skill",
+    "properties": {
+      "category": "Data Library",
+      "proficiency": "",
+      "description": "",
+      "last_used": "2025"
+    },
+    "sources": [
+      "03_skills/skills.csv"
+    ]
+  },
+  {
+    "id": "skill:chart_js",
+    "name": "Chart.js",
+    "type": "Skill",
+    "properties": {
+      "category": "Visualization",
+      "proficiency": "",
+      "description": "",
+      "last_used": "2025"
+    },
+    "sources": [
+      "03_skills/skills.csv"
+    ]
+  },
+  {
+    "id": "skill:system_architecture_design",
+    "name": "System Architecture & Design",
+    "type": "Skill",
+    "properties": {
+      "category": "Core Competency",
+      "proficiency": "",
+      "description": "",
+      "last_used": "2026"
+    },
+    "sources": [
+      "03_skills/skills.csv"
+    ]
+  },
+  {
+    "id": "skill:algorithm_design_optimization",
+    "name": "Algorithm Design & Optimization",
+    "type": "Skill",
+    "properties": {
+      "category": "Core Competency",
+      "proficiency": "",
+      "description": "",
+      "last_used": "2026"
+    },
+    "sources": [
+      "03_skills/skills.csv"
+    ]
+  },
+  {
+    "id": "skill:human_centered_design_hcd",
+    "name": "Human-Centered Design (HCD)",
+    "type": "Skill",
+    "properties": {
+      "category": "Research Methodology",
+      "proficiency": "",
+      "description": "",
+      "last_used": "2026"
+    },
+    "sources": [
+      "03_skills/skills.csv"
+    ]
+  },
+  {
+    "id": "skill:participatory_rural_appraisal_pra",
+    "name": "Participatory Rural Appraisal (PRA)",
+    "type": "Skill",
+    "properties": {
+      "category": "Research Methodology",
+      "proficiency": "",
+      "description": "",
+      "last_used": "2025"
+    },
+    "sources": [
+      "03_skills/skills.csv"
+    ]
+  },
+  {
+    "id": "project:riceagent_pro",
+    "name": "RiceAgent Pro",
+    "type": "Project",
+    "properties": {
+      "repository": "/RICE_APP",
+      "description": "Offline-first mobile automation platform for rice distribution, solving real operational workflows for family business.",
+      "key_features": "Wholesaler management|GST billing|Excel imports|WhatsApp integration|Analytics dashboard|Offline sync architecture",
+      "importance_score": "10"
+    },
+    "sources": [
+      "04_projects/projects.csv"
+    ]
+  },
+  {
+    "id": "technology:flutter_dart_riverpod_drift",
+    "name": "Flutter|Dart|Riverpod|Drift",
+    "type": "Technology",
+    "properties": {},
+    "sources": [
+      "04_projects/projects.csv"
+    ]
+  },
+  {
+    "id": "technology:sqlite",
+    "name": "SQLite",
+    "type": "Technology",
+    "properties": {},
+    "sources": [
+      "04_projects/projects.csv"
+    ]
+  },
+  {
+    "id": "project:execucode",
+    "name": "ExecuCode",
+    "type": "Project",
+    "properties": {
+      "repository": "/meta---hackathon",
+      "description": "AI-powered multi-objective code grading environment using autonomous agent loops and RL-style evaluation wrappers.",
+      "key_features": "Deterministic grading via AST analysis|Gemini agent loops|OpenEnv integration|Sandboxed Docker execution|FastAPI backend",
+      "importance_score": "9"
+    },
+    "sources": [
+      "04_projects/projects.csv"
+    ]
+  },
+  {
+    "id": "technology:python_fastapi_gemini_api_docker_openenv",
+    "name": "Python|FastAPI|Gemini API|Docker|OpenEnv",
+    "type": "Technology",
+    "properties": {},
+    "sources": [
+      "04_projects/projects.csv"
+    ]
+  },
+  {
+    "id": "project:flip_wars",
+    "name": "FLIP WARS",
+    "type": "Project",
+    "properties": {
+      "repository": "/FLIP",
+      "description": "Strategic tile-flipping game demonstrating advanced algorithms including Minimax with alpha-beta pruning and dynamic programming.",
+      "key_features": "Alpha-beta pruning|Live AI metrics dashboard|Recursive backtracking|Zobrist hashing for state optimization|Graph modeling",
+      "importance_score": "9"
+    },
+    "sources": [
+      "04_projects/projects.csv"
+    ]
+  },
+  {
+    "id": "technology:java_javafx_daa_paradigms",
+    "name": "Java|JavaFX|DAA Paradigms",
+    "type": "Technology",
+    "properties": {},
+    "sources": [
+      "04_projects/projects.csv"
+    ]
+  },
+  {
+    "id": "project:crowdiq",
+    "name": "CrowdIQ",
+    "type": "Project",
+    "properties": {
+      "repository": "/Prompt-Wars---virtual-idea-to-prototype-",
+      "description": "Real-time crowd intelligence and safety platform for large live events with AI-powered analysis.",
+      "key_features": "AI chat via Gemini|Incident reporting with image analysis|Live venue maps|SOS alerts|Operations dashboard",
+      "importance_score": "8"
+    },
+    "sources": [
+      "04_projects/projects.csv"
+    ]
+  },
+  {
+    "id": "technology:react_firebase_google_maps_api_gemini_api",
+    "name": "React|Firebase|Google Maps API|Gemini API",
+    "type": "Technology",
+    "properties": {},
+    "sources": [
+      "04_projects/projects.csv"
+    ]
+  },
+  {
+    "id": "project:life_proof_retirement_calculator",
+    "name": "Life-Proof Retirement Calculator",
+    "type": "Project",
+    "properties": {
+      "repository": "/FInCal--Hackathon",
+      "description": "AI-assisted human-centered retirement planning tool with realistic financial modeling and accessibility focus.",
+      "key_features": "Step-up SIP calculations|Dual-track inflation modeling|Geo-arbitrage scenarios|WCAG accessibility compliance|Privacy-preserving architecture",
+      "importance_score": "8"
+    },
+    "sources": [
+      "04_projects/projects.csv"
+    ]
+  },
+  {
+    "id": "technology:next_js_node_js_mysql_canvas_api",
+    "name": "Next.js|Node.js|MySQL|Canvas API",
+    "type": "Technology",
+    "properties": {},
+    "sources": [
+      "04_projects/projects.csv"
+    ]
+  },
+  {
+    "id": "project:pathway_rag_pipeline",
+    "name": "Pathway RAG Pipeline",
+    "type": "Project",
+    "properties": {
+      "repository": "/pathway_hackathon",
+      "description": "Enterprise-grade RAG framework for live document indexing and real-time AI retrieval with hybrid search capabilities.",
+      "key_features": "Live document indexing|Hybrid vector search|Multimodal extraction|Kafka-PostgreSQL synchronization|Real-time processing",
+      "importance_score": "8"
+    },
+    "sources": [
+      "04_projects/projects.csv"
+    ]
+  },
+  {
+    "id": "technology:python_pathway_ai_docker_postgresql_kafka",
+    "name": "Python|Pathway AI|Docker|PostgreSQL|Kafka",
+    "type": "Technology",
+    "properties": {},
+    "sources": [
+      "04_projects/projects.csv"
+    ]
+  },
+  {
+    "id": "project:shopease",
+    "name": "ShopEase",
+    "type": "Project",
+    "properties": {
+      "repository": "/codsoft_task1",
+      "description": "Full-stack e-commerce platform built during CodSoft internship with comprehensive buyer and admin features.",
+      "key_features": "JWT authentication|Cart reservation system|Coupon engine|Order tracking|Admin dashboard|Product comparison",
+      "importance_score": "7"
+    },
+    "sources": [
+      "04_projects/projects.csv"
+    ]
+  },
+  {
+    "id": "technology:react_node_js_express_mongodb_tailwind_css",
+    "name": "React|Node.js|Express|MongoDB|Tailwind CSS",
+    "type": "Technology",
+    "properties": {},
+    "sources": [
+      "04_projects/projects.csv"
+    ]
+  },
+  {
+    "id": "project:projecthub",
+    "name": "ProjectHub",
+    "type": "Project",
+    "properties": {
+      "repository": "/codsoft_task2",
+      "description": "Community-driven project management platform with role-based access control and Kanban workflows.",
+      "key_features": "Join-request approval system|Progress tracking|Admin oversight|Activity timelines|RBAC|Kanban boards",
+      "importance_score": "7"
+    },
+    "sources": [
+      "04_projects/projects.csv"
+    ]
+  },
+  {
+    "id": "technology:react_node_js_express_mongodb_tailwind_css_jwt_helmet",
+    "name": "React|Node.js|Express|MongoDB|Tailwind CSS|JWT|Helmet",
+    "type": "Technology",
+    "properties": {},
+    "sources": [
+      "04_projects/projects.csv"
+    ]
+  },
+  {
+    "id": "project:mess_food_management_system",
+    "name": "Mess/Food Management System",
+    "type": "Project",
+    "properties": {
+      "repository": "/food-management-system-",
+      "description": "Backend-heavy platform for digitizing mess operations in institutional settings with analytics.",
+      "key_features": "Attendance tracking|Feedback module|Recipe suggestions|Notification broadcasts|Chart.js analytics dashboard",
+      "importance_score": "7"
+    },
+    "sources": [
+      "04_projects/projects.csv"
+    ]
+  },
+  {
+    "id": "technology:node_js_express_postgresql_html",
+    "name": "Node.js|Express|PostgreSQL|HTML",
+    "type": "Technology",
+    "properties": {},
+    "sources": [
+      "04_projects/projects.csv"
+    ]
+  },
+  {
+    "id": "technology:css",
+    "name": "CSS",
+    "type": "Technology",
+    "properties": {},
+    "sources": [
+      "04_projects/projects.csv"
+    ]
+  },
+  {
+    "id": "technology:js_chart_js",
+    "name": "JS|Chart.js",
+    "type": "Technology",
+    "properties": {},
+    "sources": [
+      "04_projects/projects.csv"
+    ]
+  },
+  {
+    "id": "project:ai_studio_prototype",
+    "name": "AI Studio Prototype",
+    "type": "Project",
+    "properties": {
+      "repository": "/gemini--3-hackathon",
+      "description": "Rapid AI application prototype built during the Gemini 3 Hackathon exploring AI Studio deployment patterns.",
+      "key_features": "AI Studio deployment|Local dev setup|API-driven interaction|Rapid prototyping",
+      "importance_score": "6"
+    },
+    "sources": [
+      "04_projects/projects.csv"
+    ]
+  },
+  {
+    "id": "technology:node_js_gemini_api_ai_studio_javascript",
+    "name": "Node.js|Gemini API|AI Studio|JavaScript",
+    "type": "Technology",
+    "properties": {},
+    "sources": [
+      "04_projects/projects.csv"
+    ]
+  },
+  {
+    "id": "project:portfolio",
+    "name": "Portfolio",
+    "type": "Project",
+    "properties": {
+      "repository": "/portfolio",
+      "description": "Centralized personal portfolio platform showcasing projects skills and career direction.",
+      "key_features": "Project showcases|Responsive design|Professional branding|GitHub Pages hosting",
+      "importance_score": "6"
+    },
+    "sources": [
+      "04_projects/projects.csv"
+    ]
+  },
+  {
+    "id": "technology:html_css_javascript_github_pages",
+    "name": "HTML|CSS|JavaScript|GitHub Pages",
+    "type": "Technology",
+    "properties": {},
+    "sources": [
+      "04_projects/projects.csv"
+    ]
+  },
+  {
+    "id": "project:tourism_website",
+    "name": "Tourism Website",
+    "type": "Project",
+    "properties": {
+      "repository": "/tourwebsite",
+      "description": "Interactive platform for exploring Indian monuments and travel destinations with immersive UI.",
+      "key_features": "State-wise navigation|Image slideshows|Immersive UI/UX design|Interactive exploration",
+      "importance_score": "5"
+    },
+    "sources": [
+      "04_projects/projects.csv"
+    ]
+  },
+  {
+    "id": "technology:html_css_javascript",
+    "name": "HTML|CSS|JavaScript",
+    "type": "Technology",
+    "properties": {},
+    "sources": [
+      "04_projects/projects.csv"
+    ]
+  },
+  {
+    "id": "project:sorting_system",
+    "name": "Sorting System",
+    "type": "Project",
+    "properties": {
+      "repository": "/product-sorting-system",
+      "description": "Algorithmic product ranking and organization system for commerce data processing.",
+      "key_features": "Sorting by price/reviews|Data handling with Pandas|Algorithmic ranking",
+      "importance_score": "5"
+    },
+    "sources": [
+      "04_projects/projects.csv"
+    ]
+  },
+  {
+    "id": "technology:python_pandas",
+    "name": "Python|Pandas",
+    "type": "Technology",
+    "properties": {},
+    "sources": [
+      "04_projects/projects.csv"
+    ]
+  },
+  {
+    "id": "project:gst_data_automation_workflow",
+    "name": "GST Data Automation Workflow",
+    "type": "Project",
+    "properties": {
+      "repository": "",
+      "description": "Automated GST data processing workflow using n8n visual automation platform with API integrations.",
+      "key_features": "Automated data extraction|API integration chain|Batch processing|Visual workflow design",
+      "importance_score": "7"
+    },
+    "sources": [
+      "04_projects/projects.csv"
+    ]
+  },
+  {
+    "id": "technology:n8n_rest_apis",
+    "name": "n8n|REST APIs",
+    "type": "Technology",
+    "properties": {},
+    "sources": [
+      "04_projects/projects.csv"
+    ]
+  },
+  {
+    "id": "project:dispute_de_escalator_virtual_court_system",
+    "name": "Dispute De-Escalator / Virtual Court System",
+    "type": "Project",
+    "properties": {
+      "repository": "",
+      "description": "Award-winning virtual court and dispute de-escalation system leveraging AI for conflict resolution.",
+      "key_features": "AI-powered dispute analysis|Virtual court simulation|De-escalation workflows",
+      "importance_score": "8"
+    },
+    "sources": [
+      "04_projects/projects.csv"
+    ]
+  },
+  {
+    "id": "event:synaptix_frontier_ai_hack_participant",
+    "name": "Synaptix Frontier AI Hack Participant",
+    "type": "Event",
+    "properties": {
+      "category": "Hackathon",
+      "issuer": "IIT Madras (Shaastra 2026)",
+      "date": "2026",
+      "description": "Participated in a high-intensity AI hackathon at IIT Madras."
+    },
+    "sources": [
+      "05_achievements/achievements.csv"
+    ]
+  },
+  {
+    "id": "organization:iit_madras_shaastra_2026",
+    "name": "IIT Madras (Shaastra 2026)",
+    "type": "Organization",
+    "properties": {},
+    "sources": [
+      "05_achievements/achievements.csv"
+    ]
+  },
+  {
+    "id": "event:gemini_3_hackathon_participant",
+    "name": "Gemini 3 Hackathon Participant",
+    "type": "Event",
+    "properties": {
+      "category": "Hackathon",
+      "issuer": "-",
+      "date": "2026",
+      "description": "Built a rapid AI prototype using Google's Gemini API."
+    },
+    "sources": [
+      "05_achievements/achievements.csv"
+    ]
+  },
+  {
+    "id": "certification:full_stack_development_101",
+    "name": "Full-Stack Development 101",
+    "type": "Certification",
+    "properties": {
+      "issuer": "Simplilearn",
+      "date": "2026-04-22",
+      "credential_id": "10139442",
+      "description": "Completed a comprehensive full-stack development course."
+    },
+    "sources": [
+      "05_achievements/achievements.csv"
+    ]
+  },
+  {
+    "id": "organization:simplilearn",
+    "name": "Simplilearn",
+    "type": "Organization",
+    "properties": {},
+    "sources": [
+      "05_achievements/achievements.csv"
+    ]
+  },
+  {
+    "id": "certification:ai_product_management_micro",
+    "name": "AI Product Management (Micro)",
+    "type": "Certification",
+    "properties": {
+      "issuer": "Product Space",
+      "date": "2026-02-05",
+      "credential_id": "PSCERT-E97G24654",
+      "description": "Completed a crash course in AI product management."
+    },
+    "sources": [
+      "05_achievements/achievements.csv"
+    ]
+  },
+  {
+    "id": "organization:product_space",
+    "name": "Product Space",
+    "type": "Organization",
+    "properties": {},
+    "sources": [
+      "05_achievements/achievements.csv"
+    ]
+  },
+  {
+    "id": "certification:the_complete_ai_crash_course",
+    "name": "The Complete AI Crash Course",
+    "type": "Certification",
+    "properties": {
+      "issuer": "Product Space",
+      "date": "2026-03-05",
+      "credential_id": "PSCERT-E104G28579",
+      "description": "Completed a comprehensive AI crash course."
+    },
+    "sources": [
+      "05_achievements/achievements.csv"
+    ]
+  },
+  {
+    "id": "certification:generative_ai_mastermind",
+    "name": "Generative AI Mastermind",
+    "type": "Certification",
+    "properties": {
+      "issuer": "Outskill",
+      "date": "-",
+      "credential_id": "-",
+      "description": "Completed a program on advanced generative AI workflows."
+    },
+    "sources": [
+      "05_achievements/achievements.csv"
+    ]
+  },
+  {
+    "id": "organization:outskill",
+    "name": "Outskill",
+    "type": "Organization",
+    "properties": {},
+    "sources": [
+      "05_achievements/achievements.csv"
+    ]
+  },
+  {
+    "id": "certification:getting_started_with_ai",
+    "name": "Getting Started with AI",
+    "type": "Certification",
+    "properties": {
+      "issuer": "IBM SkillsBuild",
+      "date": "2026-03-10",
+      "credential_id": "-",
+      "description": "Completed IBM's foundational AI course."
+    },
+    "sources": [
+      "05_achievements/achievements.csv"
+    ]
+  },
+  {
+    "id": "organization:ibm_skillsbuild",
+    "name": "IBM SkillsBuild",
+    "type": "Organization",
+    "properties": {},
+    "sources": [
+      "05_achievements/achievements.csv"
+    ]
+  },
+  {
+    "id": "certification:introduction_to_genai_prompting",
+    "name": "Introduction to GenAI & Prompting",
+    "type": "Certification",
+    "properties": {
+      "issuer": "LetsUpgrade & NSDC",
+      "date": "2026-05-05",
+      "credential_id": "LUEGAIMAY1262",
+      "description": "Completed a 2-day course on GenAI and prompting."
+    },
+    "sources": [
+      "05_achievements/achievements.csv"
+    ]
+  },
+  {
+    "id": "organization:letsupgrade",
+    "name": "LetsUpgrade",
+    "type": "Organization",
+    "properties": {},
+    "sources": [
+      "05_achievements/achievements.csv"
+    ]
+  },
+  {
+    "id": "organization:nsdc",
+    "name": "NSDC",
+    "type": "Organization",
+    "properties": {},
+    "sources": [
+      "05_achievements/achievements.csv"
+    ]
+  },
+  {
+    "id": "certification:automate_everything_with_n8n",
+    "name": "Automate Everything With n8n",
+    "type": "Certification",
+    "properties": {
+      "issuer": "LetsUpgrade",
+      "date": "2026-05-15",
+      "credential_id": "LUEN8NMAY12652",
+      "description": "Completed a workshop on automation using the n8n platform."
+    },
+    "sources": [
+      "05_achievements/achievements.csv"
+    ]
+  },
+  {
+    "id": "event:iit_kharagpur_data_hack_round_1",
+    "name": "IIT Kharagpur Data Hack (Round 1)",
+    "type": "Event",
+    "properties": {
+      "category": "Hackathon",
+      "issuer": "IIT Kharagpur",
+      "date": "2026",
+      "description": "Successfully participated in Round 1 of the Kharagpur Data Science Hackathon."
+    },
+    "sources": [
+      "05_achievements/achievements.csv"
+    ]
+  },
+  {
+    "id": "organization:iit_kharagpur",
+    "name": "IIT Kharagpur",
+    "type": "Organization",
+    "properties": {},
+    "sources": [
+      "05_achievements/achievements.csv"
+    ]
+  },
+  {
+    "id": "event:codechef_problem_solver_bronze",
+    "name": "CodeChef Problem Solver Bronze",
+    "type": "Event",
+    "properties": {
+      "category": "Coding Badge",
+      "issuer": "CodeChef",
+      "date": "-",
+      "description": "Solved 50 problems on the CodeChef platform."
+    },
+    "sources": [
+      "05_achievements/achievements.csv"
+    ]
+  },
+  {
+    "id": "organization:codechef",
+    "name": "CodeChef",
+    "type": "Organization",
+    "properties": {},
+    "sources": [
+      "05_achievements/achievements.csv"
+    ]
+  },
+  {
+    "id": "event:say_yes_to_life_no_to_drugs_pledge",
+    "name": "Say Yes to Life, No to Drugs Pledge",
+    "type": "Event",
+    "properties": {
+      "category": "Social Pledge",
+      "issuer": "Ministry of Home Affairs (NCB)",
+      "date": "2024-09-04",
+      "description": "Took a public pledge against drug abuse."
+    },
+    "sources": [
+      "05_achievements/achievements.csv"
+    ]
+  },
+  {
+    "id": "organization:ministry_of_home_affairs_ncb",
+    "name": "Ministry of Home Affairs (NCB)",
+    "type": "Organization",
+    "properties": {},
+    "sources": [
+      "05_achievements/achievements.csv"
+    ]
+  },
+  {
+    "id": "role:full_stack_web_developer_intern",
+    "name": "Full-Stack Web Developer Intern",
+    "type": "Role",
+    "properties": {
+      "company": "CodSoft",
+      "start_date": "2026-04-01",
+      "end_date": "2026-05-31",
+      "description": "Built production-grade MERN stack applications including ShopEase (e-commerce platform) and ProjectHub (project management tool). Worked through the full software development lifecycle from requirements gathering to deployment, following agile methodologies."
+    },
+    "sources": [
+      "09_experience/experience.csv"
+    ]
+  },
+  {
+    "id": "organization:codsoft",
+    "name": "CodSoft",
+    "type": "Organization",
+    "properties": {},
+    "sources": [
+      "09_experience/experience.csv"
+    ]
+  },
+  {
+    "id": "role:content_analytics_trainee",
+    "name": "Content & Analytics Trainee",
+    "type": "Role",
+    "properties": {
+      "company": "Henry Harvin",
+      "start_date": "2025-06-01",
+      "end_date": "2025-07-31",
+      "description": "Participated in content strategy and analytics workflows. Gained exposure to professional content pipelines, SEO optimization, and data-driven decision making in digital marketing contexts."
+    },
+    "sources": [
+      "09_experience/experience.csv"
+    ]
+  },
+  {
+    "id": "organization:henry_harvin",
+    "name": "Henry Harvin",
+    "type": "Organization",
+    "properties": {},
+    "sources": [
+      "09_experience/experience.csv"
+    ]
+  },
+  {
+    "id": "role:research_intern_rural_technology",
+    "name": "Research Intern — Rural Technology",
+    "type": "Role",
+    "properties": {
+      "company": "Amrita Vishwa Vidyapeetham, Live-in-Labs",
+      "start_date": "2025-10-01",
+      "end_date": "2025-12-15",
+      "description": "Conducted immersive field research in Nediamanickam village as part of Amrita's Live-in-Labs program. Applied Human-Centered Design (HCD) and Participatory Rural Appraisal (PRA) methodologies to identify community needs. Designed a water purification system addressing local contamination issues. Made evidence-based decision against solar panel installation after cost-benefit analysis."
+    },
+    "sources": [
+      "09_experience/experience.csv"
+    ]
+  },
+  {
+    "id": "organization:amrita_vishwa_vidyapeetham_live_in_labs",
+    "name": "Amrita Vishwa Vidyapeetham, Live-in-Labs",
+    "type": "Organization",
+    "properties": {},
+    "sources": [
+      "09_experience/experience.csv"
+    ]
+  },
+  {
+    "id": "role:campus_ambassador",
+    "name": "Campus Ambassador",
+    "type": "Role",
+    "properties": {
+      "company": "Unlox",
+      "start_date": "2025-08-01",
+      "end_date": "",
+      "description": "Served as official campus ambassador for Unlox at Amrita Vishwa Vidyapeetham. Organized awareness campaigns, drove student engagement, and represented the platform across campus events and communities."
+    },
+    "sources": [
+      "09_experience/experience.csv"
+    ]
+  },
+  {
+    "id": "organization:unlox",
+    "name": "Unlox",
+    "type": "Organization",
+    "properties": {},
+    "sources": [
+      "09_experience/experience.csv"
+    ]
+  },
+  {
+    "id": "role:core_member",
+    "name": "Core Member",
+    "type": "Role",
+    "properties": {
+      "company": "AI Pioneers",
+      "start_date": "2025-09-01",
+      "end_date": "",
+      "description": "Active core member of AI Pioneers community. Participated in AI study groups, contributed to community projects, mentored junior members on AI/ML fundamentals, and helped organize AI-focused workshops and talks."
+    },
+    "sources": [
+      "09_experience/experience.csv"
+    ]
+  },
+  {
+    "id": "organization:ai_pioneers",
+    "name": "AI Pioneers",
+    "type": "Organization",
+    "properties": {},
+    "sources": [
+      "09_experience/experience.csv"
+    ]
+  },
+  {
+    "id": "role:automation_engineer_gst_operations",
+    "name": "Automation Engineer — GST & Operations",
+    "type": "Role",
+    "properties": {
+      "company": "Kankatala Family Business (Freelance)",
+      "start_date": "2026-01-01",
+      "end_date": "",
+      "description": "Designed and implemented GST invoice automation workflows for father's rice distribution business using n8n. Built automated pipelines for invoice generation, tax calculation, and record-keeping — replacing manual processes that consumed hours of weekly effort."
+    },
+    "sources": [
+      "09_experience/experience.csv"
+    ]
+  },
+  {
+    "id": "organization:kankatala_family_business_freelance",
+    "name": "Kankatala Family Business (Freelance)",
+    "type": "Organization",
+    "properties": {},
+    "sources": [
+      "09_experience/experience.csv"
+    ]
+  }
+]

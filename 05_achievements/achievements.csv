@@ -1,0 +1,13 @@
+achievement_name,category,issuer,date,credential_id,description,url,importance,tags
+Synaptix Frontier AI Hack Participant,Hackathon,IIT Madras (Shaastra 2026),2026,-,Participated in a high-intensity AI hackathon at IIT Madras.,-,7,ai|hackathon|iit|competition
+Gemini 3 Hackathon Participant,Hackathon,-,2026,-,Built a rapid AI prototype using Google's Gemini API.,-,6,ai|llm|hackathon|prototyping
+Full-Stack Development 101,Certification,Simplilearn,2026-04-22,10139442,Completed a comprehensive full-stack development course.,-,6,full-stack|certification|web-dev
+AI Product Management (Micro),Certification,Product Space,2026-02-05,PSCERT-E97G24654,Completed a crash course in AI product management.,-,6,ai|product-management|certification
+The Complete AI Crash Course,Certification,Product Space,2026-03-05,PSCERT-E104G28579,Completed a comprehensive AI crash course.,-,6,ai|certification
+Generative AI Mastermind,Certification,Outskill,-,-,Completed a program on advanced generative AI workflows.,-,5,generative-ai|certification
+Getting Started with AI,Certification,IBM SkillsBuild,2026-03-10,-,Completed IBM's foundational AI course.,-,5,ai|ibm|certification
+Introduction to GenAI & Prompting,Certification,LetsUpgrade & NSDC,2026-05-05,LUEGAIMAY1262,Completed a 2-day course on GenAI and prompting.,-,5,generative-ai|prompting|certification
+Automate Everything With n8n,Certification,LetsUpgrade,2026-05-15,LUEN8NMAY12652,Completed a workshop on automation using the n8n platform.,-,5,automation|n8n|workflow|certification
+IIT Kharagpur Data Hack (Round 1),Hackathon,IIT Kharagpur,2026,-,Successfully participated in Round 1 of the Kharagpur Data Science Hackathon.,-,6,data-science|hackathon|iit
+CodeChef Problem Solver Bronze,Coding Badge,CodeChef,-,-,Solved 50 problems on the CodeChef platform.,-,5,competitive-programming|codechef|badge
+"Say Yes to Life, No to Drugs Pledge",Social Pledge,Ministry of Home Affairs (NCB),2024-09-04,3664738872,Took a public pledge against drug abuse.,-,4,social-impact|pledge|government

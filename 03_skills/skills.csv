@@ -1,0 +1,39 @@
+skill_name,category,proficiency_level,proficiency_numeric,years_used,last_used,context,evidence_projects,tags
+Python,Programming Language,Proficient,4,3,2026,Primary language for AI/ML workflows and backend scripts,"ExecuCode|Pathway RAG Pipeline|Sorting System",python|backend|ai|scripting
+Java,Programming Language,Proficient,4,3,2026,Used for algorithmic game development and competitive programming,FLIP WARS,java|algorithms|game-dev|oop
+JavaScript,Programming Language,Proficient,4,3,2026,Frontend and backend web development across multiple projects,"ShopEase|ProjectHub|Portfolio|Tourism Website|AI Studio Prototype|Mess/Food Management System",javascript|web-dev|full-stack
+SQL,Programming Language,Proficient,4,2,2026,Database querying across PostgreSQL and MySQL,"Life-Proof Retirement Calculator|Mess/Food Management System|Pathway RAG Pipeline",sql|database|queries
+Dart,Programming Language,Proficient,4,1.5,2026,Mobile app development with Flutter framework,RiceAgent Pro,dart|mobile|flutter
+Node.js,Backend Framework,Proficient,4,2,2026,Server-side JavaScript for REST APIs and backend services,"ShopEase|ProjectHub|Mess/Food Management System|AI Studio Prototype|Life-Proof Retirement Calculator",nodejs|backend|server|rest-api
+Express.js,Backend Framework,Proficient,4,2,2026,REST API framework for Node.js backends,"ShopEase|ProjectHub|Mess/Food Management System",express|backend|rest-api|middleware
+FastAPI,Backend Framework,Intermediate,3,1,2026,Python async API framework for AI service backends,ExecuCode,fastapi|python|async|api
+REST APIs,Architecture Pattern,Proficient,4,2,2026,Designing and consuming RESTful interfaces across all web projects,"ShopEase|ProjectHub|ExecuCode|Mess/Food Management System",rest|api-design|http|integration
+Flutter,Mobile Framework,Proficient,4,1.5,2026,Cross-platform mobile development with offline-first architecture,RiceAgent Pro,flutter|mobile|cross-platform|offline-first
+Riverpod,State Management,Proficient,4,1.5,2026,Reactive state management in Flutter applications,RiceAgent Pro,riverpod|state-management|flutter|reactive
+Drift (SQLite),Database/ORM,Proficient,4,1.5,2026,Type-safe SQLite ORM for Flutter offline persistence,RiceAgent Pro,drift|sqlite|orm|offline|persistence
+React,Frontend Framework,Proficient,4,1.5,2026,Component-based frontend development,"CrowdIQ|ShopEase",react|frontend|components|spa
+Next.js,Frontend Framework,Intermediate,3,1,2026,Server-side rendered React framework for production web apps,Life-Proof Retirement Calculator,nextjs|react|ssr|frontend|fullstack
+Tailwind CSS,Frontend/CSS,Proficient,4,1.5,2026,Utility-first CSS framework for rapid UI development,"ShopEase|ProjectHub",tailwind|css|ui|responsive
+HTML/CSS,Frontend,Proficient,4,4,2026,Foundational web markup and styling,"Portfolio|Tourism Website|Mess/Food Management System",html|css|web|frontend
+PostgreSQL,Database,Proficient,4,1.5,2026,Relational database for structured data and complex queries,"Mess/Food Management System|Pathway RAG Pipeline",postgresql|rdbms|database|relational
+MySQL,Database,Intermediate,3,1,2026,Relational database used in fintech applications,Life-Proof Retirement Calculator,mysql|rdbms|database
+MongoDB,Database,Conceptual,2,1,2026,NoSQL document database used in MERN stack projects,"ShopEase|ProjectHub",mongodb|nosql|document-db|mern
+Redis,Database/Cache,Beginner,1,0.5,2026,Basic understanding of in-memory caching and data structures,"",redis|cache|in-memory|basics
+Firebase,Backend-as-a-Service,Intermediate,3,1,2026,Real-time database and authentication for web applications,CrowdIQ,firebase|baas|realtime|auth
+Docker,DevOps/Infrastructure,Intermediate,3,1,2026,Containerization for application deployment and sandboxing,"ExecuCode|Pathway RAG Pipeline",docker|containers|devops|deployment
+Git,Version Control,Proficient,4,3,2026,Source control and collaboration across all projects,"All projects",git|version-control|github|collaboration
+n8n,Automation Platform,Intermediate,3,0.5,2026,Visual workflow automation for data processing pipelines,GST Data Automation Workflow,n8n|automation|workflow|no-code
+Figma,Design Tool,Intermediate,3,1,2026,UI/UX design and prototyping for application interfaces,"RiceAgent Pro|CrowdIQ",figma|design|ui-ux|prototyping
+Azure,Cloud Platform,Beginner,1,0.5,2026,Cloud computing fundamentals — currently pursuing certification,"",azure|cloud|microsoft|pursuing
+LangChain,AI Framework,Intermediate,3,1,2026,LLM orchestration framework for building AI chains and agents,"Pathway RAG Pipeline",langchain|ai|llm|agents|orchestration
+Gemini API,AI Service,Proficient,4,1,2026,Google's generative AI API for building intelligent applications,"ExecuCode|CrowdIQ|AI Studio Prototype",gemini|ai|google|llm|generative-ai
+Pathway AI,AI Framework,Intermediate,3,0.5,2026,Real-time data processing framework for RAG and streaming AI,Pathway RAG Pipeline,pathway|ai|rag|real-time|streaming
+Kafka,Message Queue,Beginner,2,0.5,2026,Event streaming platform for data pipeline synchronization,Pathway RAG Pipeline,kafka|streaming|message-queue|events
+Google Maps API,API Service,Intermediate,3,0.5,2026,Geolocation and mapping integration for event platforms,CrowdIQ,google-maps|api|geolocation|mapping
+JavaFX,UI Framework,Intermediate,3,1,2025,Java desktop GUI framework for game interfaces,FLIP WARS,javafx|java|gui|desktop|game
+Pandas,Data Library,Intermediate,3,1,2025,Python data manipulation and analysis library,Sorting System,pandas|python|data-analysis|dataframes
+Chart.js,Visualization,Intermediate,3,0.5,2025,JavaScript charting library for data visualization dashboards,Mess/Food Management System,chartjs|visualization|javascript|charts
+System Architecture & Design,Core Competency,Advanced,5,3,2026,Designing modular scalable and maintainable system architectures,"RiceAgent Pro|ExecuCode|Pathway RAG Pipeline",architecture|design|systems-thinking|scalability
+Algorithm Design & Optimization,Core Competency,Proficient,4,3,2026,Implementing DP Minimax memoization and optimization algorithms,"FLIP WARS|ExecuCode",algorithms|optimization|dp|minimax|competitive
+Human-Centered Design (HCD),Research Methodology,Intermediate,3,1,2026,User-centered research and design methodology for real-world problems,Live-in-Labs Water Purification,hcd|research|user-centered|design-thinking
+Participatory Rural Appraisal (PRA),Research Methodology,Intermediate,3,0.5,2025,Community-engaged research methodology for rural development,Live-in-Labs Water Purification,pra|research|rural|community|participatory

@@ -1,0 +1,74 @@
+{
+  "indices": {
+    "identity": {
+      "index_name": "idx_identity",
+      "sources": ["01_identity/identity.json", "01_identity/elevator_pitches.json", "01_identity/communication_style.yaml"],
+      "chunk_types": ["child", "parent"],
+      "retrieval_strategy": "dense",
+      "description": "Personal details, bio, and contact information. Best retrieved via semantic vector search."
+    },
+    "timeline": {
+      "index_name": "idx_timeline",
+      "sources": ["02_timeline/timeline.csv"],
+      "chunk_types": ["child", "parent"],
+      "retrieval_strategy": "hybrid",
+      "description": "Chronological history of major events and accomplishments. Requires hybrid search for dates (sparse) and event concepts (dense)."
+    },
+    "skills": {
+      "index_name": "idx_skills",
+      "sources": ["03_skills/skills.csv"],
+      "chunk_types": ["child", "parent"],
+      "retrieval_strategy": "hybrid",
+      "description": "Specific technical languages, databases, tools, and proficiency levels. Key-term matching (sparse) is critical."
+    },
+    "projects": {
+      "index_name": "idx_projects",
+      "sources": ["04_projects/projects.csv", "13_content/open_source.csv"],
+      "chunk_types": ["child", "parent"],
+      "retrieval_strategy": "hybrid",
+      "description": "Comprehensive project details, stacks, repos, and status. Hybrid strategy retrieves specific tech terms and features."
+    },
+    "achievements": {
+      "index_name": "idx_achievements",
+      "sources": ["05_achievements/achievements.csv", "10_learning/certifications_roadmap.csv"],
+      "chunk_types": ["child", "parent"],
+      "retrieval_strategy": "hybrid",
+      "description": "Certifications, academic achievements, and contest standings."
+    },
+    "psychology": {
+      "index_name": "idx_psychology",
+      "sources": ["06_psychology/psychology.md", "14_values_beliefs/manifesto.md", "14_values_beliefs/failures_and_lessons.md"],
+      "chunk_types": ["child", "parent"],
+      "retrieval_strategy": "dense",
+      "description": "Mindsets, operational style, drive, and personal philosophies. High-density semantic search needed."
+    },
+    "experience": {
+      "index_name": "idx_experience",
+      "sources": ["09_experience/experience.csv", "09_experience/role_details/codsoft.md", "09_experience/role_details/live_in_labs.md"],
+      "chunk_types": ["child", "parent"],
+      "retrieval_strategy": "dense",
+      "description": "Professional experience, research roles, and campus ambassadorships."
+    },
+    "learning": {
+      "index_name": "idx_learning",
+      "sources": ["10_learning/reading_list.csv"],
+      "chunk_types": ["child"],
+      "retrieval_strategy": "sparse",
+      "description": "Completed courses and readings. Relies on title/topic matching."
+    },
+    "goals": {
+      "index_name": "idx_goals",
+      "sources": ["11_goals/goals.json", "11_goals/career_vision.md"],
+      "chunk_types": ["child", "parent"],
+      "retrieval_strategy": "dense",
+      "description": "Short, mid, and long-term professional aspirations and vision."
+    },
+    "interview_prep": {
+      "index_name": "idx_interview_prep",
+      "sources": ["15_interview_prep/behavioral_answers.json", "15_interview_prep/technical_deep_dives.md"],
+      "chunk_types": ["child", "parent", "qa"],
+      "retrieval_strategy": "hybrid",
+      "description": "STAR-format behavioral responses and architectural deep-dives. Matches questions to best Q&A pairs."
+    }
+  }
+}

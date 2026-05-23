@@ -1,0 +1,56 @@
+{
+  "pitches": {
+    "30_second": {
+      "duration": "30 seconds",
+      "target_audience": "Anyone — networking events, quick introductions",
+      "pitch": "I'm Ganesh Giridhar, a second-year Computer Science student at Amrita Vishwa Vidyapeetham. I build systems that solve real problems — my flagship project automates my family's rice distribution business with an offline-first mobile app. I've competed in AI hackathons at IIT Madras and IIT Kharagpur, interned as a full-stack developer at CodSoft, and designed a water purification system for a rural village through field research. I think in architectures, not just code.",
+      "key_hooks": [
+        "Family business automation — real users, real stakes",
+        "Hackathons at IIT Madras and IIT Kharagpur",
+        "Systems thinker, not just a coder"
+      ]
+    },
+    "2_minute": {
+      "duration": "2 minutes",
+      "target_audience": "Recruiters, mentors, potential collaborators",
+      "pitch": "I'm Ganesh Giridhar, a B.Tech CSE student at Amrita Vishwa Vidyapeetham, Coimbatore, graduating in 2028 with a current CGPA of 8.36. I come from Visakhapatnam, where I scored 96.17% in my SSC and 96.5% in Intermediate exams before diving into engineering.\n\nWhat defines me isn't just academics — it's what I build. My most important project is RiceAgent Pro, a Flutter-based offline-first app that automates my father's rice distribution business. Real inventory management, GST billing, WhatsApp integration — built for users who actually depend on it daily.\n\nOn the AI side, I built ExecuCode during the Meta PyTorch OpenEnv Challenge — an AI-powered code grading platform using FastAPI, Gemini API, and Docker with autonomous agent loops. I've also built a real-time RAG pipeline using Pathway AI with PostgreSQL and Kafka integration.\n\nI've competed at IIT Madras's Shaastra AI hackathon, IIT Kharagpur's Data Hack, the HDFC FinCal Hackathon, and the Gemini 3 Hackathon. During my CodSoft internship, I shipped two full MERN-stack applications — an e-commerce platform and a project management tool.\n\nBeyond code, I spent time in Ramanathapuram through Amrita's Live-in-Labs program, designing a multi-stage water purification system for a village using Human-Centered Design. That experience taught me that the best engineering serves people who can't ask for it.\n\nI operate on what I call a linear paradigm — no waiting for dramatic turning points, just consistent, compounding effort with architectural clarity.",
+      "key_sections": [
+        "Academic foundation and credibility",
+        "Flagship project with real-world impact",
+        "AI and systems engineering depth",
+        "Hackathon and competitive experience",
+        "Internship delivery",
+        "Research with social impact",
+        "Personal philosophy"
+      ]
+    },
+    "technical_audience": {
+      "duration": "60–90 seconds",
+      "target_audience": "Engineers, developers, technical interviewers",
+      "pitch": "I'm Ganesh — I work across the full stack but my strongest instinct is systems architecture. My most complex project is RiceAgent Pro, an offline-first Flutter app using Riverpod for state management and Drift (SQLite) for local persistence, with a sync architecture designed for unreliable connectivity in field conditions.\n\nI built ExecuCode — an AI code grading engine with FastAPI, Gemini API agents in autonomous evaluation loops, and Docker-based sandboxed execution. The architecture uses AST analysis for deterministic grading combined with LLM-powered qualitative feedback.\n\nFor the Gemini 3 Hackathon, I built a RAG pipeline using Pathway AI with live document indexing, hybrid vector search, and Kafka-PostgreSQL synchronization. I also shipped FLIP WARS — a JavaFX strategic game with Minimax, alpha-beta pruning, dynamic programming, and Zobrist hashing for state optimization.\n\nMy stack spans Python, Java, JavaScript/TypeScript, Flutter/Dart, React, Next.js, Node.js, FastAPI, PostgreSQL, MySQL, Docker, Firebase, and various AI frameworks including LangChain and Gemini API. I think in data flows and system boundaries.",
+      "technical_highlights": [
+        "Offline-first sync architecture (Riverpod + Drift)",
+        "Autonomous AI agent loops with sandboxed execution",
+        "RAG pipeline with live indexing and hybrid search",
+        "Game AI with Minimax, alpha-beta pruning, Zobrist hashing",
+        "Full-stack MERN delivery under internship constraints"
+      ]
+    },
+    "casual_introduction": {
+      "duration": "20–30 seconds",
+      "target_audience": "Peers, social settings, campus events",
+      "pitch": "Hey, I'm Ganesh — from Vizag, studying CS here at Amrita in Coimbatore. I build apps and AI stuff. My coolest project is probably an app I made for my dad's rice business — it handles everything from inventory to GST bills, and it works offline because the warehouse doesn't always have great signal. I've done a couple of hackathons at IIT Madras and Kharagpur, and I spent some time in a village near Ramanathapuram designing a water filter system for the community. When I'm not coding, you'll find me obsessing over cyberpunk UI design or figuring out how to automate something that shouldn't take as long as it does.",
+      "personality_notes": [
+        "Genuine and approachable without being self-deprecating",
+        "Leads with relatable stories, not credentials",
+        "Subtle flex through specificity rather than bragging",
+        "Shows breadth of interests beyond just tech"
+      ]
+    }
+  },
+  "meta": {
+    "last_updated": "2026-05-23",
+    "data_grounding": "All claims grounded in verified biographical data — no fabrication or exaggeration",
+    "customization_note": "Each pitch should be adapted in real-time based on the specific context and what the listener cares about most"
+  }
+}

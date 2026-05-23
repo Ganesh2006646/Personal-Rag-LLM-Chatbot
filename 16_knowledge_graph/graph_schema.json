@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Knowledge Graph Schema",
+  "description": "Defines valid entity and relationship types for the Personal RAG Database.",
+  "entities": {
+    "Person": {
+      "description": "Individual human entities (e.g., Ganesh, mentors, colleagues).",
+      "properties": ["name", "role", "location", "primary_technical_identity", "value_proposition"]
+    },
+    "Organization": {
+      "description": "Companies, universities, academies, and communities.",
+      "properties": ["name", "type"]
+    },
+    "Technology": {
+      "description": "Programming languages, frameworks, databases, and tooling.",
+      "properties": ["name"]
+    },
+    "Project": {
+      "description": "Software, systems, or research projects built by Ganesh.",
+      "properties": ["name", "repository", "description", "key_features", "importance_score"]
+    },
+    "Skill": {
+      "description": "Areas of expertise and competence.",
+      "properties": ["name", "category", "proficiency", "description", "last_used"]
+    },
+    "Certification": {
+      "description": "Official qualifications, courses, and certifications completed.",
+      "properties": ["name", "issuer", "date", "credential_id", "description"]
+    },
+    "Role": {
+      "description": "Professional or leadership positions held by Ganesh.",
+      "properties": ["name", "company", "start_date", "end_date", "description"]
+    },
+    "Event": {
+      "description": "Hackathons, challenges, workshops, or academic milestones.",
+      "properties": ["name", "category", "start_date", "end_date", "description"]
+    },
+    "Location": {
+      "description": "Cities, states, countries, or remote locations.",
+      "properties": ["name"]
+    }
+  },
+  "relationships": [
+    {
+      "type": "USED_IN",
+      "source": ["Skill", "Technology", "Project"],
+      "target": ["Project", "Technology"],
+      "description": "Indicates a technology or skill was used to build a project, or a technology belongs to a skill domain."
+    },
+    {
+      "type": "WORKED_AT",
+      "source": ["Person", "Role"],
+      "target": ["Organization"],
+      "description": "Connects K. Ganesh Giridhar or a specific Role to an Organization where work took place."
+    },
+    {
+      "type": "BUILT",
+      "source": ["Person"],
+      "target": ["Project"],
+      "description": "Indicates K. Ganesh Giridhar built a specific Project."
+    },
+    {
+      "type": "KNOWS",
+      "source": ["Person"],
+      "target": ["Skill"],
+      "description": "Indicates K. Ganesh Giridhar possesses a specific Skill."
+    },
+    {
+      "type": "ACHIEVED",
+      "source": ["Person"],
+      "target": ["Certification"],
+      "description": "Indicates K. Ganesh Giridhar completed or achieved a Certification."
+    },
+    {
+      "type": "LEARNED_FROM",
+      "source": ["Certification"],
+      "target": ["Organization"],
+      "description": "Indicates a Certification was issued by or learned from an Organization."
+    },
+    {
+      "type": "STUDIED_AT",
+      "source": ["Person"],
+      "target": ["Organization"],
+      "description": "Indicates K. Ganesh Giridhar attended or studied at an educational institution."
+    },
+    {
+      "type": "LOCATED_IN",
+      "source": ["Person", "Organization", "Event", "Role"],
+      "target": ["Location"],
+      "description": "Geographically tags an entity to a physical or remote Location."
+    },
+    {
+      "type": "PARTICIPATED_IN",
+      "source": ["Person"],
+      "target": ["Event"],
+      "description": "Indicates K. Ganesh Giridhar participated in a hackathon, competition, or event."
+    }
+  ]
+}

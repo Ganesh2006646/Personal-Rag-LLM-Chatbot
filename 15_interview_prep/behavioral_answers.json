@@ -1,0 +1,112 @@
+[
+  {
+    "id": "behavioral_001",
+    "question": "Tell me about yourself.",
+    "star_answer": {
+      "situation": "I am a B.Tech Computer Science and Engineering student at Amrita Vishwa Vidyapeetham, Coimbatore, graduating in 2028. I have a current CGPA of 8.36/10.",
+      "task": "My goal has always been to build real-world systems, rather than just solving isolated toy coding problems.",
+      "action": "I have spent my time building production-grade projects. My flagship project is RiceAgent Pro, an offline-first Flutter application using Riverpod and Drift (SQLite) that automates my family's rice distribution business in Andhra Pradesh. On the AI side, I built ExecuCode, an AI code-grading platform using FastAPI, Gemini API, and Docker to execute code in secure sandboxes. I've also interned at CodSoft, shipping two MERN-stack applications, and conducted field research in a rural village through Amrita's Live-in-Labs program to design a community water purification system.",
+      "result": "These experiences have given me strong skills in Python, Java, JavaScript, Flutter, React, FastAPI, Node.js, and SQL, along with a deep appreciation for systems architecture.",
+      "learning": "I operate on a 'linear paradigm'—consistent, daily execution and clear design thinking are what build reliable, high-impact systems."
+    }
+  },
+  {
+    "id": "behavioral_002",
+    "question": "Tell me about a challenging project you worked on.",
+    "star_answer": {
+      "situation": "I wanted to automate my family's rice distribution operations, which were slow, paper-heavy, and prone to transaction discrepancies. However, the warehouses and rural delivery locations often had extremely poor or non-existent cellular connectivity.",
+      "task": "I had to design a business automation system, RiceAgent Pro, that allowed operators to manage orders, track inventory, and generate GST bills completely offline, then sync with a main server when a connection became available.",
+      "action": "I chose Flutter and Dart for the cross-platform frontend. I integrated Drift as a SQLite ORM to handle local persistence. I designed a local-first sync architecture where the local database acts as the single source of truth. Offline changes are stored in a queue with transaction numbers, and I wrote conflict resolution logic on the server to merge data cleanly. I also implemented an Excel-import parser to ingest legacy wholesale records.",
+      "result": "The app runs completely offline, allowing seamless invoice generation. It reduced order-to-billing time in our family business from days to minutes, processing real transaction records with zero sync data loss.",
+      "learning": "This project taught me that user context dictates system requirements. An elegant cloud-only architecture is a failure if the user is standing in a metal warehouse with no network signal."
+    }
+  },
+  {
+    "id": "behavioral_003",
+    "question": "Tell me about a time you failed.",
+    "star_answer": {
+      "situation": "During my preparation at Tirumala IIT & JEE Academy, I dedicated two years of intensive study to qualifying for the JEE Advanced and securing a seat at a top-tier IIT.",
+      "task": "I needed to perform at an elite level on a highly competitive, multi-subject national exam.",
+      "action": "I studied 12+ hours a day, solved thousands of complex mock problems, and maintained extreme discipline. Although I performed well in my board exams (96.5%) and qualified for JEE Mains, I did not qualify for JEE Advanced.",
+      "result": "I did not get into an IIT and joined Amrita Vishwa Vidyapeetham instead.",
+      "learning": "I learned to reframe failure as a learning architecture. The process taught me first-principles thinking and built resilience. I realized that my value as an engineer isn't defined by an institution's brand, but by the code I write and the systems I build."
+    }
+  },
+  {
+    "id": "behavioral_004",
+    "question": "How do you handle pressure and tight deadlines?",
+    "star_answer": {
+      "situation": "During the Synaptix Frontier AI Hack at IIT Madras, our team had only 36 hours to build an AI prototype. Mid-way through the hackathon, we realized our initial approach to the LLM orchestration loop was too slow and hitting rate limits.",
+      "task": "We had to quickly refactor the core AI logic to execute under time constraints, without sacrificing performance or presentation quality.",
+      "action": "Instead of panicking, I structured our remaining time using a priority matrix. I immediately stripped out non-essential visual elements and focused on the core API pipeline. I implemented asynchronous requests in Python and introduced a local caching layer for common queries to avoid rate limits.",
+      "result": "We completed the functional prototype with 3 hours to spare, presenting a working, real-time AI system that successfully handled evaluator test cases.",
+      "learning": "Under pressure, speed is nothing without structural clarity. You must break down the problem, strip away the noise, and execute the minimal functional unit first."
+    }
+  },
+  {
+    "id": "behavioral_005",
+    "question": "Describe a time you worked in a team.",
+    "star_answer": {
+      "situation": "During Amrita's Live-in-Labs program, I worked with a multidisciplinary team of students in Nediamanickam village, Ramanathapuram, to solve local water quality issues.",
+      "task": "We had to design a community water purification system that was technically sound, cost-effective, and accepted by the rural residents.",
+      "action": "Some team members wanted to use solar-powered filtration units because they sounded modern. I conducted field interviews using Participatory Rural Appraisal (PRA) and analyzed local resources. I pointed out that the village lacked the technical expertise to maintain solar panels, and dust would quickly degrade them. I advocated for a simpler, multi-stage gravity-fed sand and carbon filter system that the community could maintain themselves.",
+      "result": "The team aligned around this practical design. We delivered a working model that the village elders could operate with minimal training.",
+      "learning": "Teamwork is about listening to the user and setting aside engineering ego. The most advanced technical solution is useless if the community cannot maintain it."
+    }
+  },
+  {
+    "id": "behavioral_006",
+    "question": "How do you learn new technologies?",
+    "star_answer": {
+      "situation": "I needed to build a real-time data streaming and document search pipeline for a project, but I had never used Pathway AI, Kafka, or vector databases before.",
+      "task": "I had to learn these tools from scratch and implement a functioning pipeline within two weeks.",
+      "action": "I started by reading the official documentation to understand the architectural lifecycle of Pathway's streaming engine. Rather than following generic video tutorials, I built a minimal prototype: a simple Python script that ingested a local file, computed embeddings, and stored them. Once I understood the basic data flow, I incrementally added Kafka for message streaming and PostgreSQL for persistence.",
+      "result": "I successfully built the Pathway RAG Pipeline, showing how live document updates can be indexed and queried in real-time.",
+      "learning": "The best way to learn is by building a skeleton. Read the core documentation, build a tiny working prototype to understand the abstractions, and then scale the complexity."
+    }
+  },
+  {
+    "id": "behavioral_007",
+    "question": "Tell me about a time you solved a complex technical problem.",
+    "star_answer": {
+      "situation": "In FLIP WARS, a strategic tile-flipping game I built in Java, the AI opponent was extremely slow. It took over 10 seconds to make a move because the state space grew exponentially with every turn.",
+      "task": "I had to optimize the AI engine to make decisions in under 1 second while maintaining high-quality strategic choices.",
+      "action": "I implemented a Minimax algorithm with Alpha-Beta pruning to discard branches that didn't need evaluation. To optimize state lookups, I implemented Zobrist Hashing to memoize previously evaluated game states. I also wrote a custom graph-clustering algorithm using DFS to quickly calculate board regions.",
+      "result": "The average turn calculation time dropped from 10+ seconds to less than 200 milliseconds, allowing smooth, real-time gameplay with a highly competitive AI.",
+      "learning": "Complex problems require optimization at the algorithm and state level, not just throwing more hardware at the problem."
+    }
+  },
+  {
+    "id": "behavioral_008",
+    "question": "Describe a leadership experience.",
+    "star_answer": {
+      "situation": "As the Unlox Campus Ambassador at Amrita University, I was responsible for driving student engagement and organizing workshops on technical skills.",
+      "task": "I had to organize a workshop on web development and API integration for students who had varying levels of programming experience.",
+      "action": "I designed the curriculum around building a real project—a weather app—rather than lecturing on syntax. I paired students with more coding experience with beginners. I also set up a GitHub repository with template branches so that students who fell behind could jump to a working checkpoint.",
+      "result": "Over 50 students attended, and every single participant successfully built and deployed a working web application by the end of the session.",
+      "learning": "Leadership is about creating the infrastructure for others to succeed. Clear organization, templates, and peer-matching build far more competence than loud charisma."
+    }
+  },
+  {
+    "id": "behavioral_009",
+    "question": "How do you handle disagreements within a team?",
+    "star_answer": {
+      "situation": "During a hackathon project, my teammate and I disagreed on whether to use Firebase or PostgreSQL for a collaborative real-time editor.",
+      "task": "We had to resolve the technical disagreement quickly to avoid wasting valuable hacking time.",
+      "action": "Instead of arguing, I proposed a quick benchmarking exercise. I set up a simple script to test real-time write latencies and ease of data sync in both databases. We found that while PostgreSQL was better for structured querying, Firebase's out-of-the-box listener sockets saved us hours of boilerplate code for real-time synchronization under the 36-hour deadline.",
+      "result": "We agreed to use Firebase for the hackathon MVP, which allowed us to ship a fully functional, collaborative editor on time.",
+      "learning": "Disagreements should be resolved with data and context. Frame the decision around constraints like time, requirements, and user needs, rather than personal preferences."
+    }
+  },
+  {
+    "id": "behavioral_010",
+    "question": "Why should we hire you?",
+    "star_answer": {
+      "situation": "Many applicants have clean academic records and standard course projects.",
+      "task": "I need to demonstrate why my unique combination of skills, mindset, and experience makes me a high-value asset.",
+      "action": "I bring a rare combination of technical depth and operational practicality. I have built complex, offline-first mobile apps for real businesses, sandboxed AI agent execution pipelines, and designed community-focused hardware systems in rural environments. I think in data structures, systems boundaries, and resource constraints.",
+      "result": "I don't just write code; I design systems that work under real-world pressures.",
+      "learning": "I operate on a linear, compounding work ethic. I master the fundamentals, respect constraints, and build systems with functional integrity."
+    }
+  }
+]

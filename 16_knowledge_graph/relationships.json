@@ -1,0 +1,750 @@
+[
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "organization:huxen_tusk_pre_school",
+    "type": "STUDIED_AT",
+    "properties": {
+      "years": "~2009–2011",
+      "notes": "Early childhood education foundation"
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "organization:sri_chaitanya_institutions",
+    "type": "STUDIED_AT",
+    "properties": {
+      "years": "~2011–2020",
+      "notes": "Industrial-scale academic competition environment. Digitized learning. Conditioned for high-pressure performance and discipline."
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "organization:tirumala_iit_jee_academy",
+    "type": "STUDIED_AT",
+    "properties": {
+      "years": "~2020–2024",
+      "notes": "Residential schooling. Intensive JEE preparation alongside board exams."
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "organization:amrita_vishwa_vidyapeetham",
+    "type": "STUDIED_AT",
+    "properties": {
+      "years": "2024–2028",
+      "notes": "Transition from exam-taker to systems builder. Active in hackathons, research, and campus leadership."
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "skill:python",
+    "type": "KNOWS",
+    "properties": {
+      "proficiency": ""
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "skill:java",
+    "type": "KNOWS",
+    "properties": {
+      "proficiency": ""
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "skill:javascript",
+    "type": "KNOWS",
+    "properties": {
+      "proficiency": ""
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "skill:sql",
+    "type": "KNOWS",
+    "properties": {
+      "proficiency": ""
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "skill:dart",
+    "type": "KNOWS",
+    "properties": {
+      "proficiency": ""
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "skill:node_js",
+    "type": "KNOWS",
+    "properties": {
+      "proficiency": ""
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "skill:express_js",
+    "type": "KNOWS",
+    "properties": {
+      "proficiency": ""
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "skill:fastapi",
+    "type": "KNOWS",
+    "properties": {
+      "proficiency": ""
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "skill:rest_apis",
+    "type": "KNOWS",
+    "properties": {
+      "proficiency": ""
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "skill:flutter",
+    "type": "KNOWS",
+    "properties": {
+      "proficiency": ""
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "skill:riverpod",
+    "type": "KNOWS",
+    "properties": {
+      "proficiency": ""
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "skill:drift_sqlite",
+    "type": "KNOWS",
+    "properties": {
+      "proficiency": ""
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "skill:react",
+    "type": "KNOWS",
+    "properties": {
+      "proficiency": ""
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "skill:next_js",
+    "type": "KNOWS",
+    "properties": {
+      "proficiency": ""
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "skill:tailwind_css",
+    "type": "KNOWS",
+    "properties": {
+      "proficiency": ""
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "skill:html_css",
+    "type": "KNOWS",
+    "properties": {
+      "proficiency": ""
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "skill:postgresql",
+    "type": "KNOWS",
+    "properties": {
+      "proficiency": ""
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "skill:mysql",
+    "type": "KNOWS",
+    "properties": {
+      "proficiency": ""
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "skill:mongodb",
+    "type": "KNOWS",
+    "properties": {
+      "proficiency": ""
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "skill:redis",
+    "type": "KNOWS",
+    "properties": {
+      "proficiency": ""
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "skill:firebase",
+    "type": "KNOWS",
+    "properties": {
+      "proficiency": ""
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "skill:docker",
+    "type": "KNOWS",
+    "properties": {
+      "proficiency": ""
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "skill:git",
+    "type": "KNOWS",
+    "properties": {
+      "proficiency": ""
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "skill:n8n",
+    "type": "KNOWS",
+    "properties": {
+      "proficiency": ""
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "skill:figma",
+    "type": "KNOWS",
+    "properties": {
+      "proficiency": ""
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "skill:azure",
+    "type": "KNOWS",
+    "properties": {
+      "proficiency": ""
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "skill:langchain",
+    "type": "KNOWS",
+    "properties": {
+      "proficiency": ""
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "skill:gemini_api",
+    "type": "KNOWS",
+    "properties": {
+      "proficiency": ""
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "skill:pathway_ai",
+    "type": "KNOWS",
+    "properties": {
+      "proficiency": ""
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "skill:kafka",
+    "type": "KNOWS",
+    "properties": {
+      "proficiency": ""
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "skill:google_maps_api",
+    "type": "KNOWS",
+    "properties": {
+      "proficiency": ""
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "skill:javafx",
+    "type": "KNOWS",
+    "properties": {
+      "proficiency": ""
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "skill:pandas",
+    "type": "KNOWS",
+    "properties": {
+      "proficiency": ""
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "skill:chart_js",
+    "type": "KNOWS",
+    "properties": {
+      "proficiency": ""
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "skill:system_architecture_design",
+    "type": "KNOWS",
+    "properties": {
+      "proficiency": ""
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "skill:algorithm_design_optimization",
+    "type": "KNOWS",
+    "properties": {
+      "proficiency": ""
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "skill:human_centered_design_hcd",
+    "type": "KNOWS",
+    "properties": {
+      "proficiency": ""
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "skill:participatory_rural_appraisal_pra",
+    "type": "KNOWS",
+    "properties": {
+      "proficiency": ""
+    }
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "project:riceagent_pro",
+    "type": "BUILT",
+    "properties": {}
+  },
+  {
+    "source": "project:riceagent_pro",
+    "target": "technology:flutter_dart_riverpod_drift",
+    "type": "USED_IN",
+    "properties": {}
+  },
+  {
+    "source": "project:riceagent_pro",
+    "target": "technology:sqlite",
+    "type": "USED_IN",
+    "properties": {}
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "project:execucode",
+    "type": "BUILT",
+    "properties": {}
+  },
+  {
+    "source": "project:execucode",
+    "target": "technology:python_fastapi_gemini_api_docker_openenv",
+    "type": "USED_IN",
+    "properties": {}
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "project:flip_wars",
+    "type": "BUILT",
+    "properties": {}
+  },
+  {
+    "source": "project:flip_wars",
+    "target": "technology:java_javafx_daa_paradigms",
+    "type": "USED_IN",
+    "properties": {}
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "project:crowdiq",
+    "type": "BUILT",
+    "properties": {}
+  },
+  {
+    "source": "project:crowdiq",
+    "target": "technology:react_firebase_google_maps_api_gemini_api",
+    "type": "USED_IN",
+    "properties": {}
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "project:life_proof_retirement_calculator",
+    "type": "BUILT",
+    "properties": {}
+  },
+  {
+    "source": "project:life_proof_retirement_calculator",
+    "target": "technology:next_js_node_js_mysql_canvas_api",
+    "type": "USED_IN",
+    "properties": {}
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "project:pathway_rag_pipeline",
+    "type": "BUILT",
+    "properties": {}
+  },
+  {
+    "source": "project:pathway_rag_pipeline",
+    "target": "technology:python_pathway_ai_docker_postgresql_kafka",
+    "type": "USED_IN",
+    "properties": {}
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "project:shopease",
+    "type": "BUILT",
+    "properties": {}
+  },
+  {
+    "source": "project:shopease",
+    "target": "technology:react_node_js_express_mongodb_tailwind_css",
+    "type": "USED_IN",
+    "properties": {}
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "project:projecthub",
+    "type": "BUILT",
+    "properties": {}
+  },
+  {
+    "source": "project:projecthub",
+    "target": "technology:react_node_js_express_mongodb_tailwind_css_jwt_helmet",
+    "type": "USED_IN",
+    "properties": {}
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "project:mess_food_management_system",
+    "type": "BUILT",
+    "properties": {}
+  },
+  {
+    "source": "project:mess_food_management_system",
+    "target": "technology:node_js_express_postgresql_html",
+    "type": "USED_IN",
+    "properties": {}
+  },
+  {
+    "source": "project:mess_food_management_system",
+    "target": "technology:css",
+    "type": "USED_IN",
+    "properties": {}
+  },
+  {
+    "source": "project:mess_food_management_system",
+    "target": "technology:js_chart_js",
+    "type": "USED_IN",
+    "properties": {}
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "project:ai_studio_prototype",
+    "type": "BUILT",
+    "properties": {}
+  },
+  {
+    "source": "project:ai_studio_prototype",
+    "target": "technology:node_js_gemini_api_ai_studio_javascript",
+    "type": "USED_IN",
+    "properties": {}
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "project:portfolio",
+    "type": "BUILT",
+    "properties": {}
+  },
+  {
+    "source": "project:portfolio",
+    "target": "technology:html_css_javascript_github_pages",
+    "type": "USED_IN",
+    "properties": {}
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "project:tourism_website",
+    "type": "BUILT",
+    "properties": {}
+  },
+  {
+    "source": "project:tourism_website",
+    "target": "technology:html_css_javascript",
+    "type": "USED_IN",
+    "properties": {}
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "project:sorting_system",
+    "type": "BUILT",
+    "properties": {}
+  },
+  {
+    "source": "project:sorting_system",
+    "target": "technology:python_pandas",
+    "type": "USED_IN",
+    "properties": {}
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "project:gst_data_automation_workflow",
+    "type": "BUILT",
+    "properties": {}
+  },
+  {
+    "source": "project:gst_data_automation_workflow",
+    "target": "technology:n8n_rest_apis",
+    "type": "USED_IN",
+    "properties": {}
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "project:dispute_de_escalator_virtual_court_system",
+    "type": "BUILT",
+    "properties": {}
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "event:synaptix_frontier_ai_hack_participant",
+    "type": "PARTICIPATED_IN",
+    "properties": {}
+  },
+  {
+    "source": "event:synaptix_frontier_ai_hack_participant",
+    "target": "organization:iit_madras_shaastra_2026",
+    "type": "LOCATED_IN",
+    "properties": {}
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "event:gemini_3_hackathon_participant",
+    "type": "PARTICIPATED_IN",
+    "properties": {}
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "certification:full_stack_development_101",
+    "type": "ACHIEVED",
+    "properties": {}
+  },
+  {
+    "source": "certification:full_stack_development_101",
+    "target": "organization:simplilearn",
+    "type": "LEARNED_FROM",
+    "properties": {}
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "certification:ai_product_management_micro",
+    "type": "ACHIEVED",
+    "properties": {}
+  },
+  {
+    "source": "certification:ai_product_management_micro",
+    "target": "organization:product_space",
+    "type": "LEARNED_FROM",
+    "properties": {}
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "certification:the_complete_ai_crash_course",
+    "type": "ACHIEVED",
+    "properties": {}
+  },
+  {
+    "source": "certification:the_complete_ai_crash_course",
+    "target": "organization:product_space",
+    "type": "LEARNED_FROM",
+    "properties": {}
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "certification:generative_ai_mastermind",
+    "type": "ACHIEVED",
+    "properties": {}
+  },
+  {
+    "source": "certification:generative_ai_mastermind",
+    "target": "organization:outskill",
+    "type": "LEARNED_FROM",
+    "properties": {}
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "certification:getting_started_with_ai",
+    "type": "ACHIEVED",
+    "properties": {}
+  },
+  {
+    "source": "certification:getting_started_with_ai",
+    "target": "organization:ibm_skillsbuild",
+    "type": "LEARNED_FROM",
+    "properties": {}
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "certification:introduction_to_genai_prompting",
+    "type": "ACHIEVED",
+    "properties": {}
+  },
+  {
+    "source": "certification:introduction_to_genai_prompting",
+    "target": "organization:letsupgrade",
+    "type": "LEARNED_FROM",
+    "properties": {}
+  },
+  {
+    "source": "certification:introduction_to_genai_prompting",
+    "target": "organization:nsdc",
+    "type": "LEARNED_FROM",
+    "properties": {}
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "certification:automate_everything_with_n8n",
+    "type": "ACHIEVED",
+    "properties": {}
+  },
+  {
+    "source": "certification:automate_everything_with_n8n",
+    "target": "organization:letsupgrade",
+    "type": "LEARNED_FROM",
+    "properties": {}
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "event:iit_kharagpur_data_hack_round_1",
+    "type": "PARTICIPATED_IN",
+    "properties": {}
+  },
+  {
+    "source": "event:iit_kharagpur_data_hack_round_1",
+    "target": "organization:iit_kharagpur",
+    "type": "LOCATED_IN",
+    "properties": {}
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "event:codechef_problem_solver_bronze",
+    "type": "PARTICIPATED_IN",
+    "properties": {}
+  },
+  {
+    "source": "event:codechef_problem_solver_bronze",
+    "target": "organization:codechef",
+    "type": "LOCATED_IN",
+    "properties": {}
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "event:say_yes_to_life_no_to_drugs_pledge",
+    "type": "PARTICIPATED_IN",
+    "properties": {}
+  },
+  {
+    "source": "event:say_yes_to_life_no_to_drugs_pledge",
+    "target": "organization:ministry_of_home_affairs_ncb",
+    "type": "LOCATED_IN",
+    "properties": {}
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "role:full_stack_web_developer_intern",
+    "type": "WORKED_AT",
+    "properties": {}
+  },
+  {
+    "source": "role:full_stack_web_developer_intern",
+    "target": "organization:codsoft",
+    "type": "WORKED_AT",
+    "properties": {}
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "role:content_analytics_trainee",
+    "type": "WORKED_AT",
+    "properties": {}
+  },
+  {
+    "source": "role:content_analytics_trainee",
+    "target": "organization:henry_harvin",
+    "type": "WORKED_AT",
+    "properties": {}
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "role:research_intern_rural_technology",
+    "type": "WORKED_AT",
+    "properties": {}
+  },
+  {
+    "source": "role:research_intern_rural_technology",
+    "target": "organization:amrita_vishwa_vidyapeetham_live_in_labs",
+    "type": "WORKED_AT",
+    "properties": {}
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "role:campus_ambassador",
+    "type": "WORKED_AT",
+    "properties": {}
+  },
+  {
+    "source": "role:campus_ambassador",
+    "target": "organization:unlox",
+    "type": "WORKED_AT",
+    "properties": {}
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "role:core_member",
+    "type": "WORKED_AT",
+    "properties": {}
+  },
+  {
+    "source": "role:core_member",
+    "target": "organization:ai_pioneers",
+    "type": "WORKED_AT",
+    "properties": {}
+  },
+  {
+    "source": "person:kankatala_ganesh_giridhar",
+    "target": "role:automation_engineer_gst_operations",
+    "type": "WORKED_AT",
+    "properties": {}
+  },
+  {
+    "source": "role:automation_engineer_gst_operations",
+    "target": "organization:kankatala_family_business_freelance",
+    "type": "WORKED_AT",
+    "properties": {}
+  }
+]

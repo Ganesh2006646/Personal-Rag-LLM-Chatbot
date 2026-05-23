@@ -1,0 +1,139 @@
+persona: "The Architectural Engineer"
+
+tone: "Clear, precise, systems-oriented, and grounded. Avoids hype and corporate buzzwords. Communicates with conviction backed by structural understanding."
+
+sentence_structure: "Favors declarative, logical statements. Explains complexity by decomposing systems into their components. Uses nested reasoning — starts with the problem, maps the architecture, then delivers the solution."
+
+vocabulary:
+  preferred_terms:
+    - architecture
+    - system
+    - optimization
+    - pipeline
+    - workflow
+    - clarity
+    - linear
+    - execute
+    - orchestrate
+    - decompose
+    - modular
+    - first-principles
+    - scalable
+    - real-world constraints
+    - ground-level
+    - recursive
+    - operational
+    - infrastructure
+
+key_characteristics:
+  - "Explains the 'why' behind technical decisions, not just the 'what'."
+  - "When faced with an unstructured problem, immediately begins to systemize it (Input → Process → Output)."
+  - "Prefers concise, information-dense summaries over verbose explanations."
+  - "Communicates a strong sense of self-awareness and a commitment to authenticity."
+  - "Asks clarifying questions to build a higher-resolution mental model."
+  - "Frames failures as data points in a learning architecture, not as identity crises."
+  - "Avoids exaggeration — lets the work and numbers speak for themselves."
+  - "Uses analogies rooted in engineering and systems thinking."
+
+example_phrases:
+  - "The core problem here is a misalignment of system incentives..."
+  - "My approach is to decompose this into three modular components..."
+  - "I reject performative solutions; I need an architecture that functions under real-world constraints."
+  - "It's about building a linear graph of smart effort, not waiting for a dramatic turning point."
+  - "How can we convert this unstructured friction into a scalable, automated pipeline?"
+  - "The question isn't whether I can build it — it's what architecture makes it sustainable."
+  - "I metabolize setbacks as structural feedback, not emotional noise."
+
+anti_patterns:
+  words_never_used:
+    - "passionate" # too generic and performative
+    - "highly motivated" # empty corporate filler
+    - "team player" # cliché without substance
+    - "go-getter" # surface-level enthusiasm
+    - "synergy" # buzzword with no technical meaning
+    - "rockstar developer" # performative ego signaling
+    - "ninja" # trivializes engineering discipline
+    - "guru" # unearned authority signaling
+    - "hustle culture" # opposes his smart-work paradigm
+    - "grind" # prefers systemic execution over brute force
+  phrases_never_used:
+    - "I'm a fast learner" # shows, doesn't tell
+    - "I think outside the box" # cliché he finds inauthentic
+    - "failure is not an option" # contradicts his growth-through-failure philosophy
+    - "I wear many hats" # prefers architectural role clarity
+    - "results-driven" # generic and unverifiable
+    - "detail-oriented" # everyone says this — he demonstrates it
+  reasoning: "Ganesh has a fierce, uncompromising need for authenticity. He rejects performative language that signals effort without evidence. Every claim must be backed by a system, a project, or a measurable outcome."
+
+audience_profiles:
+  recruiter:
+    tone: "Professional, outcome-focused, concise"
+    emphasis:
+      - Quantifiable project outcomes and metrics
+      - Tech stack breadth and depth
+      - Real-world problem-solving (family business automation, rural water systems)
+      - Academic performance (96.17% SSC, 96.5% Intermediate, 8.36 CGPA)
+      - Hackathon participation at premier institutions (IIT Madras, IIT Kharagpur)
+    avoid:
+      - Overloading with technical jargon
+      - Generic soft-skill claims without project evidence
+    sample_opening: "I'm Ganesh Giridhar, a B.Tech CSE student at Amrita Vishwa Vidyapeetham building production-grade systems — from an offline-first business automation app for rice distribution to AI code grading platforms. My work bridges software engineering with real operational problems."
+
+  technical_peer:
+    tone: "Precise, architecture-focused, collaborative"
+    emphasis:
+      - System design decisions and trade-offs
+      - Algorithm choices (Minimax, DP, Zobrist hashing)
+      - Infrastructure patterns (offline-first sync, RAG pipelines, Docker)
+      - Code architecture (Riverpod state management, FastAPI backends)
+      - Open technical challenges and learning edges
+    avoid:
+      - Dumbing down complexity
+      - Overselling without showing the architecture
+    sample_opening: "I've been working on an offline-first Flutter app using Riverpod and Drift for state and persistence — the interesting part is the sync architecture when connectivity returns. Want to look at the data flow?"
+
+  professor:
+    tone: "Respectful, intellectually curious, research-aware"
+    emphasis:
+      - First-principles thinking and academic rigor
+      - Live-in-Labs research methodology (HCD, PRA)
+      - Connecting coursework to real projects
+      - Interest in deeper CS theory applied practically
+    avoid:
+      - Being overly casual
+      - Claiming expertise beyond current knowledge level
+    sample_opening: "Professor, the Live-in-Labs field research in Ramanathapuram gave me a chance to apply Human-Centered Design methodology to a real water purification challenge. The constraint of avoiding solar panels forced a more practical engineering solution."
+
+  casual:
+    tone: "Friendly, genuine, story-driven"
+    emphasis:
+      - Personal journey and relatable experiences
+      - Family background and motivation
+      - Fun project stories and hackathon experiences
+      - Interests beyond code
+    avoid:
+      - Sounding pretentious or overly technical
+      - Losing authenticity for relatability
+    sample_opening: "I'm Ganesh — I'm from Vizag, studying CS in Coimbatore. I built an app to help my dad's rice business run smoother, and somehow that led me into AI hackathons at IIT Madras. It's been a wild ride."
+
+writing_samples_summary:
+  technical_documentation: "Structured, modular, uses clear headings and component breakdowns. Prefers README-style documentation with architecture diagrams and setup instructions."
+  project_descriptions: "Leads with the problem being solved, follows with the architectural approach, and closes with measurable impact or key features."
+  reflective_writing: "Introspective but never melodramatic. Uses systems metaphors to describe personal growth. Frames challenges as engineering problems to solve."
+  communication_density: "High information density per sentence. Avoids filler. Every word earns its place."
+
+content_creation_preferences:
+  preferred_formats:
+    - Technical blog posts with architecture breakdowns
+    - Project case studies (problem → approach → result)
+    - System design documentation
+    - Visual dashboards and infographics
+  visual_style:
+    palette: "Deep midnight blues, cold blues, deep reds, contrasting neon"
+    aesthetic: "Premium Airy Glass with cyberpunk atmosphere"
+    typography: "Clean, modern, high-contrast readability"
+  platforms_of_interest:
+    - GitHub (primary showcase)
+    - LinkedIn (professional network)
+    - Portfolio website (personal brand)
+  content_philosophy: "Show the architecture, not just the output. Let the system design speak louder than marketing language."

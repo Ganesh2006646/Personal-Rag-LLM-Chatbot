@@ -1,0 +1,113 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Personal RAG DB Identity Schema",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "object",
+      "properties": {
+        "first": { "type": "string" },
+        "middle": { "type": "string" },
+        "last": { "type": "string" },
+        "preferred": { "type": "string" },
+        "full_display": { "type": "string" },
+        "formal": { "type": "string" },
+        "family_name_note": { "type": "string" }
+      },
+      "required": ["first", "last", "full_display"]
+    },
+    "headline": { "type": "string" },
+    "bio": {
+      "type": "object",
+      "properties": {
+        "short": { "type": "string" },
+        "long": { "type": "string" }
+      },
+      "required": ["short", "long"]
+    },
+    "contact": {
+      "type": "object",
+      "properties": {
+        "email": { "type": "string", "format": "email" },
+        "phone": { "type": "string" },
+        "location": {
+          "type": "object",
+          "properties": {
+            "current_city": { "type": "string" },
+            "current_state": { "type": "string" },
+            "current_context": { "type": "string" },
+            "hometown": { "type": "string" },
+            "home_state": { "type": "string" },
+            "birthplace": { "type": "string" },
+            "birthplace_context": { "type": "string" },
+            "country": { "type": "string" }
+          },
+          "required": ["current_city", "hometown", "country"]
+        }
+      },
+      "required": ["email", "phone", "location"]
+    },
+    "social_profiles": {
+      "type": "object",
+      "properties": {
+        "github": {
+          "type": "object",
+          "properties": {
+            "username": { "type": "string" },
+            "url": { "type": "string", "format": "uri" }
+          },
+          "required": ["username", "url"]
+        },
+        "linkedin": {
+          "type": "object",
+          "properties": {
+            "url": { "type": "string" }
+          },
+          "required": ["url"]
+        },
+        "portfolio": {
+          "type": "object",
+          "properties": {
+            "url": { "type": "string", "format": "uri" }
+          },
+          "required": ["url"]
+        }
+      }
+    },
+    "professional": {
+      "type": "object",
+      "properties": {
+        "current_role": { "type": "string" },
+        "university": { "type": "string" },
+        "degree": { "type": "string" },
+        "enrollment_year": { "type": "integer" },
+        "graduation_year": { "type": "integer" },
+        "cgpa": { "type": "string" },
+        "industry_interests": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "primary_technical_identity": { "type": "string" },
+        "primary_product_identity": { "type": "string" },
+        "value_proposition": { "type": "string" }
+      },
+      "required": ["current_role", "university", "graduation_year", "cgpa"]
+    },
+    "education": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "institution": { "type": "string" },
+          "level": { "type": "string" },
+          "location": { "type": "string" },
+          "years": { "type": "string" },
+          "notes": { "type": "string" },
+          "achievements": { "type": "object" }
+        },
+        "required": ["institution", "level", "location", "years"]
+      }
+    }
+  },
+  "required": ["name", "headline", "bio", "contact", "professional"]
+}
