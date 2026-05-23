@@ -46,6 +46,11 @@ def get_embedding(text: str, api_key: str) -> list[float]:
                 print(f"    Rate limit hit. Retrying in {sleep_time}s...")
                 time.sleep(sleep_time)
             else:
+                try:
+                    error_body = e.read().decode('utf-8')
+                    print(f"\n    [HTTP Error {e.code}] Google API Response: {error_body}")
+                except Exception:
+                    pass
                 raise e
     raise Exception("Failed to generate embedding after retries.")
 
