@@ -1,0 +1,206 @@
+# =============================================
+# Portfolio Website — Navigation, Links & Contact
+# This data powers the RAG chatbot with live links
+# so it can redirect users to the right portfolio
+# pages, project repos, and social profiles.
+# =============================================
+
+portfolio:
+  live_url: "https://brandofganesh.vercel.app"
+  github_repo: "https://github.com/Ganesh2006646/portfolio"
+  description: "Ganesh Giridhar's personal portfolio website — a cinematic, dark-themed, glassmorphic showcase of projects, skills, hackathons, experience, and contact information."
+
+# ---- NAVIGATION / SITE PAGES ----
+navigation:
+  - page: "Home"
+    url: "https://brandofganesh.vercel.app/index.html"
+    description: "Landing page with hero section, about bio, technical arsenal, featured projects, hackathon timeline, experience, certifications, and footer."
+    sections:
+      - name: "Hero"
+        anchor: "#hero"
+        content: "Aspiring AI Systems Engineer & Full-Stack Developer tagline with 'View Work' call-to-action."
+      - name: "About / The Engineering Identity"
+        anchor: "#about"
+        content: "Profile photo, full bio, key skill tags (Python, Java, JavaScript, Node.js, AI Models, Flutter), stats (8.4 CGPA, 4+ Hackathons), and service focus areas (AI Systems, Full-Stack Dev, Product Strategy)."
+      - name: "Technical Arsenal"
+        anchor: "#arsenal"
+        content: "Interactive 3D tech stack visualization showing Python, Java, JavaScript, React, Node.js, Express, PostgreSQL, MongoDB, Docker, Flutter, Firebase, Git."
+      - name: "Important Projects (Proof of Impact)"
+        anchor: "#impact"
+        content: "Featured 4 projects — Dispute De-Escalator, Flip Wars, ExecuCode, Spectra-Shield — with links to their GitHub repos."
+      - name: "Hackathons (Competitive Spirit)"
+        anchor: "#compete"
+        content: "Timeline of hackathons attended — Synaptics at IIT Madras, Gemini 3 (Google), Meta OpenEnv, HDFC FinCal."
+      - name: "Experience & Research"
+        anchor: "#experience"
+        content: "CodSoft Web Dev Internship, Live-in-Labs Rural Water Purification Research, AI for Good Initiative."
+      - name: "Upskilling & Continuous Learning"
+        anchor: "#recognition"
+        content: "Certifications and platforms — Product Space, LetsUpgrade, Outskill, Skill India SOAR AI, Simplilearn Full-Stack, LeetCode, CodeChef."
+
+  - page: "Work (Projects)"
+    url: "https://brandofganesh.vercel.app/work.html"
+    description: "Full project portfolio with detailed descriptions, tech stacks, rankings, and GitHub repository links for all 8 projects."
+
+  - page: "Contact"
+    url: "https://brandofganesh.vercel.app/contact.html"
+    description: "Contact form for collaboration inquiries (AI/ML Engineering, Full-Stack Development, Product Strategy, Research/Hackathon, Internship Opportunity, Open Source). Also shows email, location, and social links."
+
+# ---- SOCIAL PROFILES ----
+social_profiles:
+  linkedin:
+    url: "https://www.linkedin.com/in/kankatala-ganesh-giridhar-071876322"
+    display: "Kankatala Ganesh Giridhar on LinkedIn"
+  github:
+    url: "https://github.com/Ganesh2006646"
+    display: "Ganesh2006646 on GitHub"
+  email:
+    address: "kankatalaganeshgiridhar@gmail.com"
+    mailto: "mailto:kankatalaganeshgiridhar@gmail.com"
+  portfolio:
+    url: "https://brandofganesh.vercel.app"
+    display: "brandofganesh.vercel.app"
+
+# ---- CONTACT DETAILS ----
+contact:
+  email: "kankatalaganeshgiridhar@gmail.com"
+  location:
+    current: "Coimbatore, Tamil Nadu, India"
+    context: "Amrita Vishwa Vidyapeetham campus"
+    hometown: "Visakhapatnam, Andhra Pradesh, India"
+  availability: "Open to AI & Product Internships"
+  contact_form: "https://brandofganesh.vercel.app/contact.html"
+  collaboration_types:
+    - "AI / ML Engineering"
+    - "Full-Stack Development"
+    - "Product Strategy"
+    - "Research / Hackathon"
+    - "Internship Opportunity"
+    - "Open Source"
+
+# ---- ALL PROJECTS WITH FULL LINKS ----
+projects:
+  - name: "Dispute De-Escalator"
+    rank: "1st Place"
+    year: 2026
+    hackathon: "Gemini 3 Hackathon (Google)"
+    tech_stack: "Gemini Models, Agentic NLP, Next.js, Node.js, PostgreSQL"
+    description: "AI-powered legal tech prototype for judicial backlog reduction. Structures out-of-court resolutions from emotionally charged inputs using Gemini models for agentic NLP and narrative reasoning."
+    github_repo: "https://github.com/Ganesh2006646/gemini--3-hackathon"
+    portfolio_section: "https://brandofganesh.vercel.app/work.html"
+
+  - name: "RiceAgent Pro"
+    rank: "2nd Place"
+    year: "2024–2025"
+    tech_stack: "Flutter, SQLite/Hive, Offline-First Architecture"
+    description: "Offline-first mobile app for agricultural data collection. Zero data loss in low-connectivity environments with robust local caching and background cloud syncing."
+    github_repo: "https://github.com/Ganesh2006646/RICE_APP"
+    portfolio_section: "https://brandofganesh.vercel.app/work.html"
+
+  - name: "Flip Wars"
+    rank: "3rd Place"
+    year: 2025
+    tech_stack: "Java, JavaFX, Game Theory, Minimax, Alpha-Beta Pruning"
+    description: "Highly optimized multiplayer strategy game with AI opponent. Uses minimax with alpha-beta pruning, memoization, and Zobrist hashing for real-time decision making."
+    github_repo: "https://github.com/Ganesh2006646/FLIP"
+    portfolio_section: "https://brandofganesh.vercel.app/work.html"
+
+  - name: "ExecuCode"
+    rank: "Honorable Mention"
+    year: 2026
+    hackathon: "Meta OpenEnv Hackathon"
+    tech_stack: "FastAPI, Gemini SDK, RL Environments, Python, Docker"
+    description: "Multi-objective code grading environment. Evaluates Python submissions across correctness, performance, and readability using AST analysis and Gemini-powered autonomous feedback loops."
+    github_repo: "https://github.com/Ganesh2006646/meta---hackathon"
+    portfolio_section: "https://brandofganesh.vercel.app/work.html"
+
+  - name: "Spectra-Shield"
+    year: 2025
+    hackathon: "Synaptics Frontier AI Hackathon (IIT Madras)"
+    tech_stack: "Agentic AI, Real-Time Streaming, Gemini, Pathway, LiteLLM, Python"
+    description: "Real-time anomaly detection system. Autonomously parses continuous data streams to generate mitigation strategies using Agentic AI and LLM workflows."
+    github_repo: "https://github.com/Ganesh2006646/pathway_hackathon"
+    portfolio_section: "https://brandofganesh.vercel.app/work.html"
+
+  - name: "HDFC Retirement Calculator"
+    year: 2025
+    hackathon: "HDFC FinCal Innovation Hackathon"
+    tech_stack: "Next.js, Node.js, MySQL, Canvas API"
+    description: "Full-stack financial modeling engine meeting WCAG 2.1 AA accessibility and brand compliance standards. Projects inflation-adjusted retirement corpuses."
+    github_repo: "https://github.com/Ganesh2006646/FInCal--Hackathon"
+    portfolio_section: "https://brandofganesh.vercel.app/work.html"
+
+  - name: "Mess Management System"
+    year: 2025
+    tech_stack: "Node.js, Express, PostgreSQL"
+    description: "Full-stack platform for institutional dining operations with real-time inventory tracking, meal plan authorization, and responsive REST APIs."
+    github_repo: "https://github.com/Ganesh2006646/food-management-system-"
+    portfolio_section: "https://brandofganesh.vercel.app/work.html"
+
+  - name: "Tour Management Portal"
+    year: 2026
+    tech_stack: "HTML5, CSS3, JavaScript, Multi-Page Architecture"
+    description: "Comprehensive frontend web application for travel planning with structured search forms and geographical showcases."
+    github_repo: "https://github.com/Ganesh2006646/tourwebsite"
+    portfolio_section: "https://brandofganesh.vercel.app/work.html"
+
+# ---- HACKATHON TIMELINE ----
+hackathons:
+  - name: "Synaptics Frontier AI Hackathon"
+    year: 2026
+    venue: "IIT Madras"
+    track: "Applied GenAI Track"
+    project: "Spectra-Shield"
+
+  - name: "Gemini 3 Hackathon"
+    year: 2026
+    venue: "Google"
+    track: "AI Legal Tech"
+    project: "Dispute De-Escalator"
+
+  - name: "Meta OpenEnv Hackathon"
+    year: 2026
+    venue: "Meta"
+    track: "Environmental Tech"
+    project: "ExecuCode"
+
+  - name: "HDFC FinCal Innovation Hackathon"
+    year: 2025
+    venue: "HDFC"
+    track: "FinTech"
+    project: "HDFC Retirement Calculator"
+
+# ---- EXPERIENCE ----
+experience:
+  - role: "Web Development Intern"
+    organization: "CodSoft"
+    description: "Completed a hands-on internship focusing on full-stack web development. Built responsive applications, refined skills in modern front-end/back-end frameworks."
+
+  - role: "Live-in-Labs Researcher"
+    organization: "Amrita Vishwa Vidyapeetham"
+    period: "2025 – Present"
+    description: "Contributed to the engineering and field research for a community-managed water purification system in Nediamanickam village, Tamil Nadu."
+
+  - role: "AI for Good Initiative"
+    period: "2025 – Ongoing"
+    description: "Actively exploring how Agentic AI and Generative models can be applied to build sustainable, high-impact societal solutions."
+
+# ---- CHATBOT RESPONSE INSTRUCTIONS ----
+# When the chatbot receives questions about any of the above,
+# it should include clickable links in its response.
+#
+# Examples:
+# Q: "What are Ganesh's projects?"
+# A: Include links to each project's GitHub repo AND
+#    link to the Work page: https://brandofganesh.vercel.app/work.html
+#
+# Q: "How can I contact Ganesh?"
+# A: Include email (kankatalaganeshgiridhar@gmail.com),
+#    LinkedIn URL, GitHub profile,
+#    and link to Contact page: https://brandofganesh.vercel.app/contact.html
+#
+# Q: "Where can I see Ganesh's skills?"
+# A: Link to the About section: https://brandofganesh.vercel.app/index.html#arsenal
+#
+# Q: "Tell me about Ganesh's hackathon experience"
+# A: Link to the hackathon section: https://brandofganesh.vercel.app/index.html#compete

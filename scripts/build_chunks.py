@@ -66,6 +66,8 @@ IMPORTANCE_MAP = {
     "content": 5,
     "values_beliefs": 8,
     "interview_prep": 7,
+    "portfolio_links": 9,
+    "linkedin": 8,
 }
 
 # ---------------------------------------------------------------------------
@@ -662,6 +664,18 @@ SOURCE_MAP: list[tuple[str, str, str, str]] = [
     ("14_values_beliefs/failures_and_lessons.md", "values_beliefs", "failures", "md"),
     ("15_interview_prep/behavioral_answers.json", "interview_prep", "behavioral", "json"),
     ("15_interview_prep/technical_deep_dives.md", "interview_prep", "tech_dives", "md"),
+    ("19_portfolio_links/portfolio_navigation_and_links.yaml", "portfolio_links", "portfolio_nav", "yaml"),
+    # LinkedIn data export (20_linkdeln/)
+    ("20_linkdeln/Profile.csv", "linkedin", "li_profile", "csv"),
+    ("20_linkdeln/Positions.csv", "linkedin", "li_positions", "csv"),
+    ("20_linkdeln/Education.csv", "linkedin", "li_education", "csv"),
+    ("20_linkdeln/Projects.csv", "linkedin", "li_projects", "csv"),
+    ("20_linkdeln/Skills.csv", "linkedin", "li_skills", "csv"),
+    ("20_linkdeln/Company Follows.csv", "linkedin", "li_follows", "csv"),
+    ("20_linkdeln/Email Addresses.csv", "linkedin", "li_email", "csv"),
+    ("20_linkdeln/Rich_Media.csv", "linkedin", "li_media", "csv"),
+    ("20_linkdeln/Registration.csv", "linkedin", "li_reg", "csv"),
+    ("20_linkdeln/PhoneNumbers.csv", "linkedin", "li_phone", "csv"),
 ]
 
 

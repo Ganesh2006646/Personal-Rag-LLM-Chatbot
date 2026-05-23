@@ -72,7 +72,7 @@ export default async function handler(
 
     // 1. Generate Query Embedding
     const embedResult = await ai.models.embedContent({
-      model: 'models/text-embedding-004',
+      model: 'models/gemini-embedding-2',
       content: {
         parts: [{ text: message }],
       },
@@ -109,8 +109,8 @@ export default async function handler(
     // Inject context into System Prompt
     const fullSystemInstruction = SYSTEM_PROMPT.replace('{context}', contextText);
 
-    // 4. Generate Response using Gemini-1.5-flash
-    const model = ai.models.get({ model: 'gemini-1.5-flash' });
+    // 4. Generate Response using Gemini-2.0-flash
+    const model = ai.models.get({ model: 'gemini-2.0-flash' });
     const result = await model.generateContent({
       contents: [{ role: 'user', parts: [{ text: message }] }],
       config: {

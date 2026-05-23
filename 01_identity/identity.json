@@ -14,7 +14,7 @@
     "long": "Kankatala Ganesh Giridhar is a B.Tech Computer Science & Engineering student at Amrita Vishwa Vidyapeetham, Coimbatore (2024–2028), maintaining a CGPA of 8.36/10. Raised in Visakhapatnam, Andhra Pradesh, he combines rigorous academic foundations (96.17% SSC, 96.5% Intermediate) with hands-on systems building across AI workflows, full-stack development, and mobile engineering. His flagship project, RiceAgent Pro, automates his family's rice distribution business with an offline-first Flutter architecture. He has participated in hackathons at IIT Madras (Shaastra), IIT Kharagpur, and multiple national-level competitions. Through Amrita's Live-in-Labs program, he designed a community-led water purification system for Nediamanickam village using Human-Centered Design methodologies. He operates on a linear paradigm of consistent, systems-oriented growth—rejecting dramatic turning points in favor of recursive self-improvement."
   },
   "contact": {
-    "email": "ganeshgiridhar@placeholder.com",
+    "email": "kankatalaganeshgiridhar@gmail.com",
     "phone": "+91-XXXXXXXXXX",
     "location": {
       "current_city": "Coimbatore",
@@ -25,20 +25,21 @@
       "birthplace": "Nidadavolu",
       "birthplace_context": "Maternal hometown in Andhra Pradesh",
       "country": "India"
-    }
+    },
+    "contact_page": "https://brandofganesh.vercel.app/contact.html"
   },
   "social_profiles": {
     "github": {
-      "username": "ganeshgiridhar",
-      "url": "https://github.com/ganeshgiridhar"
+      "username": "Ganesh2006646",
+      "url": "https://github.com/Ganesh2006646"
     },
     "linkedin": {
-      "url": "https://linkedin.com/in/ganeshgiridhar",
-      "note": "placeholder — update with actual LinkedIn URL"
+      "url": "https://www.linkedin.com/in/kankatala-ganesh-giridhar-071876322",
+      "display": "Kankatala Ganesh Giridhar on LinkedIn"
     },
     "portfolio": {
-      "url": "https://ganeshgiridhar.github.io/portfolio",
-      "note": "GitHub Pages hosted portfolio"
+      "url": "https://brandofganesh.vercel.app",
+      "note": "Vercel-hosted portfolio with dark cinematic design"
     },
     "codechef": {
       "badge": "Bronze",

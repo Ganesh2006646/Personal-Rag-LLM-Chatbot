@@ -2,7 +2,7 @@
 """
 generate_embeddings.py — Generates local vector store for in-memory RAG
 ======================================================================
-Reads 07_chunks/rag_chunks.jsonl, calls Gemini text-embedding-004 API,
+Reads 07_chunks/rag_chunks.jsonl, calls Gemini gemini-embedding-2 API,
 and writes vectors and payloads to portfolio-chatbot/src/data/vectors.json.
 
 Usage:
@@ -20,10 +20,10 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 OUTPUT_FILE = PROJECT_ROOT / "portfolio-chatbot" / "src" / "data" / "vectors.json"
 
 def get_embedding(text: str, api_key: str) -> list[float]:
-    """Generate vector embedding using Gemini API text-embedding-004."""
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/text-embedding-004:embedContent?key={api_key}"
+    """Generate vector embedding using Gemini API gemini-embedding-2."""
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-2:embedContent?key={api_key}"
     payload = {
-        "model": "models/text-embedding-004",
+        "model": "models/gemini-embedding-2",
         "content": {
             "parts": [{"text": text}]
         }
@@ -72,7 +72,7 @@ def main():
         for line in f:
             if line.strip():
                 chunks.append(json.loads(line.strip()))
-    print(f"  ✓ Read {len(chunks)} chunks.")
+    print(f"  [OK] Read {len(chunks)} chunks.")
 
     # 2. Embed each chunk
     print("[2/3] Generating embeddings...")
@@ -115,7 +115,7 @@ def main():
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(vector_db, f, indent=2, ensure_ascii=False)
         
-    print("✓ Vector database generated successfully.")
+    print("[OK] Vector database generated successfully.")
 
 if __name__ == "__main__":
     main()

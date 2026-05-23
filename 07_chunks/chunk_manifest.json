@@ -1,13 +1,13 @@
 {
   "version": "2.0.0",
-  "generated_at": "2026-05-23T08:27:34.313838+00:00",
-  "total_chunks": 317,
-  "child_chunks": 269,
-  "parent_chunks": 33,
+  "generated_at": "2026-05-23T16:10:09.994846+00:00",
+  "total_chunks": 399,
+  "child_chunks": 344,
+  "parent_chunks": 40,
   "qa_chunks": 15,
-  "total_tokens": 49079,
-  "avg_tokens_per_chunk": 154.8,
-  "files_processed": 24,
+  "total_tokens": 58861,
+  "avg_tokens_per_chunk": 147.5,
+  "files_processed": 35,
   "files_skipped": 0,
   "chunks_by_category": {
     "achievements": 16,
@@ -18,7 +18,9 @@
     "identity": 19,
     "interview_prep": 31,
     "learning": 27,
+    "linkedin": 74,
     "network": 23,
+    "portfolio_links": 8,
     "projects": 21,
     "prompts": 5,
     "psychology": 9,
@@ -27,8 +29,8 @@
     "values_beliefs": 17
   },
   "chunks_by_type": {
-    "child": 269,
-    "parent": 33,
+    "child": 344,
+    "parent": 40,
     "qa": 15
   },
   "sources": [
@@ -54,6 +56,17 @@
     "14_values_beliefs/failures_and_lessons.md",
     "15_interview_prep/behavioral_answers.json",
     "15_interview_prep/technical_deep_dives.md",
+    "19_portfolio_links/portfolio_navigation_and_links.yaml",
+    "20_linkdeln/Profile.csv",
+    "20_linkdeln/Positions.csv",
+    "20_linkdeln/Education.csv",
+    "20_linkdeln/Projects.csv",
+    "20_linkdeln/Skills.csv",
+    "20_linkdeln/Company Follows.csv",
+    "20_linkdeln/Email Addresses.csv",
+    "20_linkdeln/Rich_Media.csv",
+    "20_linkdeln/Registration.csv",
+    "20_linkdeln/PhoneNumbers.csv",
     "09_experience\\role_details\\codsoft.md",
     "09_experience\\role_details\\live_in_labs.md"
   ]
